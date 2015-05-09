@@ -1,0 +1,237 @@
+% ------------------ APPENDIX F ------------------%
+%                                                 %
+%      Optics Parameters Characterizations        %
+% ----------------------------------------------- %
+\chapter{Characterization of the Optical Parameters}
+\label{app:optics}
+
+
+
+This Appendix describes characterization of many of the optical parameters of the
+interferometer, including lengths, losses, reflectivities and
+the cavity time constants and build-up factors.
+
+
+\section{Cavity Length Measurements}
+
+There are 4 primary lengths which are controlled. In addition to the microscopic
+lengths, the macroscopic absolute lengths of these degrees of freedom must also
+be set. Typically, this is done to the accuracy of the initial surveying techniques.
+
+After the interferometer was running we measured these lengths interferometrically
+and then adjusted the lengths accordingly.
+
+
+\subsection{Arm Cavity Lengths}
+
+The nominal arm lengths are 3995.15 meters. This was initially set by reference
+to the GPS satellites~\cite{Rai:GPS}. We then determined the arm lengths 
+inteferometrically by measuring the frequency between successive resonances. We
+did this by applying a frequency modulation to the laser, generating a set of
+frequency sidebands on the carrier field. We then did a swept sine measurement
+between the laser excitation and the response in the reflection locking signal
+for each arm individually. Measurements made in November of 2003 for L1 gave: \\
+
+L$_x$ = 3995.032 m  $\qquad$  L$_y$ = 3995.001 m  \\
+
+This took place after the translation of ITMY to correct the lengths of the
+power-recycled Michelson. The ITMY was moved 4 cm closer to beamsplitter and
+so lengthened the y-arm. This appears to imply that the arm lengths were 
+$\approx$ 7 cm different before the summer of 2003 (which includes S1 \& S2).
+
+Even more accurate measurements of arm length were made on the Hanford 4 km
+interferometer \cite{Rick:ArmLengths} using a more sophisticated optical model
+of the interferometer and a rubidium frequency standard. This resulted in
+arm length measurements with a precision of 80 $\mu$m, which is less than the
+daily stretching of the arm by the tidal gravitational force from the moon.
+
+
+\subsection{Schnupp Asymmetry}
+
+The macroscopic difference in the two Michelson lengths $l_y$ and $l_x$ determines
+the transmission of the resonant sidebands to the dark port: 
+$t_{\mbox{\tiny M}} = sin(\frac{2 \pi f_m l_-}{c})$.
+
+This length difference is measured by finding the dark port demodulation phase 
+appropriate for each arm cavity seperately. The difference in RF phase for
+the two arms comes only from the different path length traveled by the sideband
+to the AS port.
+
+Typically, these measurements achieve an absolute accuracy of +/- 1 mm in this
+length. There have not been significant efforts to improve on this accuracy and
+there does not seem to be any reason to do so.
+
+There was an error in the initial calculation to set this length for both 4 km
+interferometers, with the result that the asymmetry was to small by $\sim$4 cm.
+This was corrected by venting the corner station vacuum and moving the optics'
+suspension towers in the summer of 2003 between the S2 \& S3 runs.
+
+
+\subsection{Recycling Cavity Length}
+
+The average length between the power recycling mirror (RM) and the two
+input test masses (ITMs) is defined as the macroscopic length, $l_+$.
+It is chosen to make the recycling cavity resonant for the resonant
+sidebands (hence the name).
+
+Hypothetically, a gross error in the placement of one of the mirrors
+(e.g. the RM) would shift the resonant frequency of the cavity. This would
+result in a reduced build up for both the carrier and the sidebands. Two
+methods have been used to measure this length:
+
+The first method was to misalign the RM, ETMX, and ETMY, forming a simple
+Michelson interferometer. The differential Michelson length signal at the
+AS port then appears in only one demodulation quadrature. This phase is
+recorded and then measured again when the full interferometer is locked by
+driving the differential arm length. 
+
+The difference in the RF phase between
+the two states gives a measure of how much the RF sidebands have been phase
+shifted upon transmission through the resonant power-recycling cavity.
+If the power recycling cavity length ($l_+$) is not an integer multiple
+of $c/(2 f_m)$, there will be a differential phase shift applied to
+the upper and lower RF sidebands as they transmit to the AS port.
+
+%How much? Is this really true? Should there be a phasor diagram here?
+
+
+\subsection{Mode Cleaner Length}
+
+The mode cleaner length is set to be resonant for the interferometer's
+resonant sideband. The non-resonant sideband frequency, f$_{\mbox{\tiny NR}}$, is then
+set to be a multiple of the mode cleaner free spectral range
+(see Table~\ref{t:MCparams}), but not resonant in the power recycling
+cavity.
+
+%If the MC length is not set correctly there can be some problems: such as...
+
+
+\section{Transmissivity, Reflectivity, and Loss}
+
+None of the optics have exactly the same transmissivity as was asked for 
+or measured in the metrology lab, but they're pretty close mostly. The
+AR coating reflectivities seem to be as much as 10X different than their
+lab measured values.
+
+While disturbing, we can use this to our advantage by using the most
+powerful pickoff in the control loops for the $l_-$ and $l_+$
+lengths.
+
+\subsection{Common arm loss via recycling gain}
+
+The carrier power recycling gain is given by the following formula:
+
+\begin{equation}
+G_{cr} = |g_{cr}|^2 
+       = \left [\frac{t_{\mbox{\tiny RM}}}{1+r_{\mbox{\tiny RM}}r_c} \right ]^2
+\end{equation}
+where $r_c$ is the average amplitude reflectivity of the arms for the carrier. By
+modifying Equation~\ref{eq:arm_reflectivity} to include a finite loss upon reflection
+from the arm cavity mirrors we get:
+
+\begin{equation}
+r_c = \frac{r_{\mbox{\tiny ITM}} - \sqrt{1-T_{\mbox{\tiny ETM}}-L}}
+           {1 - r_{\mbox{\tiny ITM}} \sqrt{1-T_{\mbox{\tiny ETM}}-L}}
+\label{eq:arm_reflectivity_with_loss}
+\end{equation}
+which gives the handy approximate relation $(1-r_c) \approx 1\% (L / 140 ppm)$
+for small losses. Here $L$ is defined as the round trip \emph{power} loss
+in the arm cavity, including the ETM transmission, but not the ITM
+transmission.
+
+The measured power recycling gain factor of $\approx$50 gives us an average
+arm loss of 140 ppm, or 70 ppm per mirror.
+
+
+\subsection{Differential arm loss via PRC to AS\_Q \& CMRR}
+
+Several pernicious noise sources highlighted in Chapter~\ref{chap:noise}
+are proportional to the amplitude of the TEM$_{00}$ carrier field at the
+AS port which is in the orthogonal phase from the carrier field produced
+by a differential arm length offset.
+
+Another way to describe this is that a differential arm length shift
+causes the carrier fields interfering at the beamsplitter to have a relative
+phase shift. The AS\_Q signal is \emph{not} first order sensitive to an
+amplitude difference in the two fields, and so the $L_-$ servo does not
+null this component of the carrier field. This amplitude unbalance can
+only come about through a difference in the resonant reflectivity of the
+arms.
+
+As described above, the measurement of the cavity reflectivity gives a 
+measure of the loss in the arm. By calibrating the frequency noise
+coupling and the $l_+ \rightsquigarrow AS\_Q$ coupling (see Sections
+\ref{sec:FreqNoise} and \ref{sec:POBnoise}, respectively) we know that 
+the difference in
+the resonant reflectivity of the two arms, $\delta r_c$ is 0.5\%. This
+corresponds to a differential loss of 70 ppm between the two arms for the
+Livingston interferometer. Similar measurements done on the Hanford 4 km 
+interferometer give roughly
+the same average loss but a factor of $\sim$2 less differential loss.
+
+\subsection{T$_{\mbox{\tiny ITM}}$}
+
+The transmission of the ITM ($\approx$ 0.028) is the dominant loss in 
+the arm cavities. To determine the exact number, we measure the decay
+time of the arm cavities by quickly switching off the light incident
+on the interferometer. 
+
+The best way to quickly shut off the light is to very quickly shift
+the laser frequency with the FSS by electronically changing the sign
+of the servo~\cite{Andri:elog}. The switch off time is then dominated by the time
+constant of the in-vacuum Mode Cleaner ($\approx$20 $\mu$s decay time). 
+
+
+
+\subsection{T$_{\mbox{\tiny ETM}}$}
+
+T$_{\mbox{\tiny ETM}}$ is measured by directly measuring the power
+transmitted through the end of the arms with the interferometer
+locked. The circulating power in the arm is measured through
+two methods: by using the known arm cavity build up factor and
+the carrier recycling gain or by looking at the radiation
+pressure offset induced on the ITMs (which are free to move at DC).
+
+
+\subsection{R$_{\mbox{\tiny BS}}$ - T$_{\mbox{\tiny BS}}$}
+
+Almost all of the calculations so far in this thesis have assumed that the
+Beamplitter is truly a 50/50 beamsplitter; that
+R$_{\mbox{\tiny BS}}$ = T$_{\mbox{\tiny BS}}$. One known consequence of
+this, an increased radiation pressure coupling, was discussed in
+Section~\ref{sec:radpress}.
+
+There are no first order offsets introduced at the AS port from this
+effect, however. Neglecting radiation pressure, all of the fields at the
+AS port depend on the product (r$_{\mbox{\tiny BS}}$ t$_{\mbox{\tiny BS}}$)
+and not on the difference.
+
+\section{Contrast}
+
+To have good sensitivity at high frequencies, the interferometer must be
+shot noise limited. The shot noise limit must also be low to have a good
+sensitivity, as described in Section~\ref{sec:ShotNoise}.
+
+The contrast measurements to date have been made by measuring the
+recycling gain for the carrier, the sideband power at the AS port, and then
+the total power at the AS port. The contrast defect, $c_d$, is then
+defined as:
+
+\begin{equation}
+c_d = \frac{P_{AS}}{P_{BS}} = \frac{P_{AS}}{G_{cr} P_{in}}
+\end{equation}
+where $P_{BS}$ is the total carrier power on the beamplitter and
+$P_{AS}$ is the total carrier power at the anti-symmetric port.
+
+The contrast defect in the Livingston interferometer has been measured to be
+$c_d < 4 \times 10^{-5}$. This is an upper limit; the angular
+fluctuations of the interferometer kept the dark port power fluctuating
+by an order of magnitude over minute time scales.
+
+
+\section{Metrology}
+
+All of the optics metrology data is available at Core Optics 
+website~\cite{COCwebsite} and interesting related comments in
+an internal LIGO technical report~\cite{Rai:Metrology}.
+

@@ -1,0 +1,264 @@
+% ----- APPENDIX C ------------------%
+%                                    %
+%       The Mode Cleaner             %
+% ---------------------------------- %
+\chapter{Mode Cleaner}
+\label{app:ModeCleaner}
+
+\begin{figure}[!h]
+\centerline{\includegraphics[angle=0,height=6in]{Figures/AppC/MC-block_diagram.png}}
+\end{figure}
+
+The Mode Cleaner (MC) is a suspended, in-vacuum, triangular cavity. Its
+purpose is to condition the laser beam before it enters the
+main interferometer.
+
+Specifically, it serves three purposes:
+
+\begin{itemize}
+\item It is called a mode cleaner because it is resonant only for
+      a single transverse spatial mode. Higher order spatial modes
+      experience a larger phase shift per each round trip and so 
+      fall out of the very narrow resonance. The effective frequency
+      shift for the higher order modes is given by~\cite{Siegman}:
+
+      \begin{equation}
+      \Delta f_{mn} = (m + n + 1) \, \arccos{(g_{\mbox{\tiny MC}})} \, \frac{c}{2 \pi L}
+      \end{equation}
+      Since we know the transmission as a function of frequency, we can
+      easily write down the amplitude transmission as a function of
+      mode index:
+
+      \begin{equation}
+      t_{m n} = \frac{1-R}{1 + R^{2} - 2 R \cos{(m+n) \, 
+                          \arccos{\sqrt{g_{\mbox{\tiny MC}}}}}}
+      \label{eq:ModeCleaning}
+      \end{equation}
+ 
+\item The MC is also a very stable angular reference. Angular fluctuations of 
+      the input beam can be represented as higher order transverse modes of the
+      MC cavity basis. So the input beam jitter is passively filtered out.
+
+\item The Mode Cleaner is used as a quiet length reference which the
+      laser wavelength is compared to in an intermediate stage of the
+      interferomter's Common Mode Servo. (See Figure~\ref{fig:CMblock})
+
+\item The cavity passively filters laser frequency and amplitude
+      fluctuations above the mode cleaner cavity pole, $f_{\mbox{\tiny MC}} \sim4$ kHz.
+      The cavity's amplitude transmission response falls like
+       $\sim$ 1/f for frequencies above the pole and below 
+      the next resonance frequency.
+
+\item Lastly, the mode cleaner is also a polarization filter. There
+      is a 180 degree phase flip for horizontally polarized light
+      relative to vertically polarized light. This phase shift comes
+      from the triangular geometery of the cavity. Tracing the propagation
+      of the E-field vector in a single round trip makes this effect clear.
+      In addition to this purely geometric effect, there can be a different
+      phase shift upon reflection for light of the two polarizations. This
+      phase shift has not been measured yet. The power transmission of the
+      flat mirrors (MC$_1$ and MC$_3$) is 10X greater ($\approx$ 2\%) for 
+      the horizontal polarization than for the vertical and so the Finesse
+      of the cavity for horizontally polarized light is 10X less.
+
+\end{itemize}
+
+
+
+\begin{table}[!h]
+\begin{center}
+\begin{tabular}{|l|c|r|c|}
+\hline
+\multicolumn{4}{|l|}
+{{\bf Small Optic Parameters}}\\ \hline \hline
+Parameter                          & Symbol     & Value           & Units   \\ \hline \hline
+
+Thickness (coating)            & d$_C$      & 8 $\times$ 10$^{-6}$   & m           \\ \hline
+
+Optic Diameter                        & dia        & 0.075           & m           \\ \hline
+
+Optic Thickness                       & $h$        & 0.025           & m           \\ \hline
+
+Optic Mass               & $m_{\mbox{\tiny SOS}}$  & 0.25            & kg          \\ \hline
+
+\end{tabular}
+\end{center}
+\caption[Small Optic's Parameters]{Parameters for the optics are only approximate. Only
+                            parameters which are different from the large optics 
+                             (see Table~\ref{t:LOS} are listed. There is an
+                             optic to optic variation in dimensions due to the varying
+                             wedge angles. Thickness is measured at the \emph{thickest}
+                             point for all small optics.}
+\label{t:SOS}
+\end{table}
+
+
+
+\begin{table}[!h]
+\begin{center}
+\begin{tabular}{|l|c|r|c|}
+\hline
+\multicolumn{4}{|l|}
+{{\bf Mode Cleaner Parameters}}\\ \hline \hline
+Parameter                           & Symbol     & Value          & Units   \\ \hline \hline
+
+Plane mirror transmittance   & T$_{MC1}$,T$_{MC3}$  & 2 $\times$ 10$^{-3}$   & -   \\ \hline
+
+Curved mirror transmittance      & T$_{MC2}$     & 1 $\times$ 10$^{-5}$      & -   \\ \hline
+
+Cavity length                    & L$_{MC}$     & 12.243           & m             \\ \hline
+
+Free Spectral Range              & f$_{fsr}$    & 12.243           & MHz           \\ \hline
+
+g - factor                       & g$_{MC}$     & 0.290            & -             \\ \hline
+
+Finesse                   & $\mathcal{F}_{MC}$   & 1400            & -             \\ \hline
+
+Cavity pole                 & f$_{MC}$           & 4000            & Hz            \\ \hline
+
+\end{tabular}
+\end{center}
+\caption[Mode Cleaner Parameters]{Parameters for the suspended, in-vacuum Mode Cleaner
+         cavity. The mirror transmittances, radii of curvature, and cavity g-factor are
+         the designed parameters (not measured). All others are measured in-situ.}
+\label{t:MCparams}
+\end{table}
+
+
+\section{Noise}
+\label{sec:MCnoise}
+
+The mode cleaner length fluctuations must be kept low enough to not compromise the
+frequency noise stabilization. In addition, since the laser wavelength is stabilized
+to the mode cleaner in one stage of the frequency stabilization system, the mode
+cleaner length sensing noise must also be kept low.
+
+As done for the main interferometer (in Chapter~\ref{chap:noise}), the noise budget
+for the mode cleaner was made early on and used to motivate the design of the
+electronics associated with the mode cleaner.
+
+The old requirement curve in Figure~\ref{fig:MCnoise} is based on the initial 
+interferometer design which
+used a much more conservative frequency stabilization scheme. In the existing
+situation, there is more gain in the final servo stage which stabilizes the
+wavelength of the light transmitted by the mode cleaner to the average length of
+the arms. The new requirement curve, then, is relaxed by the amount shown in the
+plot. 
+
+\begin{figure}[!h]
+\centerline{\includegraphics[angle=0,width=6.5in]{Figures/AppC/mcn2.pdf}}
+\caption[Mode Cleaner Noise Budget]{Frequency noise spectrum of the light
+               transmitted by the mode cleaner. The true output noise is measured 
+               by taking
+               power spectra of the Common Mode Servo control signals and
+               correcting appropriately for the CM loop gain.}
+\label{fig:MCnoise}
+\end{figure}
+
+\subsection{Radiation Pressure}
+Fluctuations in the stored power of the mode cleaner cause length fluctuations
+through radiation pressure forces on the suspended mirrors. The effect is more
+significant in the mode cleaner than in the main interferometer due to the
+40$\times$ smaller mass of the mode cleaner mirrors. 
+
+To calculate the radiation pressure effect on the MC round trip cavity length
+we have to take into account the non-normal angle of incidence of the beam on
+the flat mirror surfaces (the angle of incidence on the curved mirror, MC2, is
+small enough to approximate as zero).
+
+The change in the round trip length for small displacements of the MC mirrors
+(in the direction perpendicular to their respective surfaces) is
+
+\begin{equation}
+\delta L_{\mbox{\tiny RT}} \simeq \frac{2}{\sqrt{2}} \delta x_{mc1} + 
+                                  2 \delta x_{mc2} + 
+                                  \frac{2}{\sqrt{2}} \delta x_{mc3}
+\end{equation}
+
+The displacements of the MC mirrors resulting from a fluctuating circulating power
+are:
+
+\begin{alignat}
+\delta x_{mc1} &= \sqrt{2} \times \frac{\delta P_{circ}}{m \, c \, \omega^2} \\
+\delta x_{mc2} &= 2 \times \frac{\delta P_{circ}}{m \, c \, \omega^2} \\
+\delta x_{mc3} &= \sqrt{2} \times \frac{\delta P_{circ}}{m \, c \, \omega^2}
+\end{alignat}
+
+So then the corresponding change in the cavity length,
+($L_{\mbox{\tiny MC}} \equiv L_{\mbox{\tiny RT}}/2$) is:
+
+\begin{equation}
+\begin{aligned}
+\delta L_{\mbox{\tiny MC}} &= 4 \, \frac{\delta P_{circ}}{m c f^2} \\
+        &\simeq 6 \times 10^{-19}
+             \left(\frac{\mbox{RIN}(f)}{10^{-8} /\sqrt{\mbox{Hz}}}\right)
+             \left(\frac{P_{in}}{1 W}\right)
+             \left(\frac{\mathcal{F}}{1400}\right)
+             \left(\frac{100}{f}\right)^2
+             \frac{\mbox{m}}{\sqrt{\mbox{Hz}}}
+\end{aligned}
+\end{equation}
+
+
+\subsection{VCO Phase Noise}
+The voltage controlled oscillator (VCO) which drives the acousto-optic
+modulator (AOM) used as a frequency shifter in the first stage of the
+frequency stabilization servo (FSS) has a phase jitter associated with
+the 80 MHz carrier with which the AOM is driven.
+
+The phase noise is multiplied by 2 for the double pass of the beam through
+the AOM. The resultant noise is incident on the mode cleaner and is suppressed
+by the mode cleaner servo, giving it the shape seen in Figure~\ref{fig:MCnoise}.
+
+The double-pass frequency noise induced on the light by the VCO has been measured
+to be a flat level of $\sim20 \times 10^{-3} \mbox{Hz}/\sqrt{\mbox{Hz}}$.
+
+From Figure~\ref{fig:CMnoise}, we see that this noise source is far above the
+requirement for the MC's transmitted frequency noise. There are a few options
+on this front:
+
+\begin{itemize}
+\item Lower noise VCO (probably at the cost of dynamic range).
+
+\item Higher gain in the Mode Cleaner servo in the 3-10 kHz band.
+
+\item Higher gain in the Common Mode servo in the 3-10 kHz band.
+\end{itemize}
+
+
+\subsection{Servo Electronics}
+Due to excess noise coming from the laser, the signal entering the MC servo
+board was too large and saturated the electronics (the op amps used had a 
+low slew rate limit). Attenuating this signal heavily resulted in a high
+effective sensing noise level in this servo. The induced noise is
+suppressed somewhat by the servo loop gain.
+
+This noise will be reduced by using faster, low-noise components and switching
+the filtering configuration to one that preserves the input referred 
+SNR up to 10 kHz.
+
+
+\subsection{Acoustics/Clipping/Scattering}
+Just like in the main IFO, there is noise introduced into the MC sensing
+somewhere on the out-of-vaccuum optics table on which the MC sensing
+optics and electronics are housed. There is evidence that this accounts for
+the rich, unmodeled structure in the noise in the 100-1000 Hz band.
+
+As shown in Figure~\ref{fig:CMnoise}, the frequency noise on the light
+leaving the MC is too high above 100 Hz. In the 100-1000 Hz band, it
+will be neccesary to pursue some mitigation of the acoustic sensitivity
+of the MC sensing chain; namely, some sound dampening foam and better
+alignment of the beam and expansion of some of the limiting optical apertures.
+
+
+
+
+
+
+
+
+
+
+
+
+

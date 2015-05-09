@@ -1,0 +1,332 @@
+@preamble{ "\newcommand{\noopsort}[1]{} "
+	# "\newcommand{\printfirst}[2]{#1} "
+	# "\newcommand{\singleletter}[1]{#1} "
+	# "\newcommand{\switchargs}[2]{#2#1} " }	  
+
+
+@PhdThesis{Brian:Thesis,
+  author = 	 "Brian T. Lantz",
+  title = 	 "Quantum Limited Optical Phase Detection in a High
+		  Power Suspended Interferometer",
+  school = 	 "Massachusetts Institute of Technology",
+  year = 	 1999,
+  address =	 "Department of Physics",
+  month =	 "February",
+  type =	 "{PhD} Dissertation",
+  key =          "Brian",
+  note =	 "LIGO-P990003-00-R"
+}
+
+@Article{Einstein,
+  author = 	 "A. Einstein",
+  title = 	 "Sitzungberichte der
+                  Physikalischmathematischen Klasse",
+  journal =	 "Preuss. Akad. Wiss. Berlin",
+  year =	 1918,
+  volume =	 154,
+  key =          "Einstein:1918",
+  note =	 "Its in German, stupid"
+}
+
+@Article{Weber:1960,
+  author = 	 "J. Weber",
+  title = 	 "Detection and Generation of Gravitational Waves",
+  journal =	 "Phys. Rev.",
+  year =	 1960,
+  volume =	 117,
+  pages =	 "306-313",
+  key =          "Weber:1960",
+  note =	 "Methods are proposed..."
+}
+
+@Article{Fritschel:PNI,
+  author = 	 "P. Fritschel and G. Gonzalez and B. Lantz and P. Saha
+		  and M. Zucker",
+  title = 	 "High Power Interferometric Phase Meausrement Limited
+		  by Quantum Noise and the Application to the
+		  Detection of Gravitational Waves",
+  journal =	 "Phys. Rev. Lett.",
+  year =	 1998,
+  volume =	 80,
+  pages =	 "3181-3184",
+  key =          "Fritschel:PNI",
+  note =	 "LIGO-P970009-00-R"
+}
+
+@Article{Sigg:1998,
+  author = 	 "D. Sigg and N. Mavalvala and J. Giame and P. Fritschel
+		  and D. Shoemaker",
+  title = 	 "Signal Extraction in a Power-Recycled Michelson
+		  Interferometer with Fabry-Perot Arm Cavities Using a
+		  Multiple-carrier Frontal Modulation Scheme",
+  journal =	 "Appl. Optics",
+  year =	 1998,
+  volume =	 37,
+  pages =	 "5687-5693",
+  key =          "Gang1",
+  note =	 "LIGO-P970016-01-R"
+}
+
+@Article{LIGO:Science,
+  author = 	 "A. Abramovici and W. Althouse and R. Drever and
+		  Y. G{\"{u}}rsel and S. Kawamura and F. Raab and
+		  D. Shoemaker and L. Sievers and R. Spero and K. Thorne
+		  and R. Vogt and R. Weiss and S. Whitcomb and M. Zucker",
+  title = 	 "LIGO-The Laser Interferometer Gravitational-wave 
+		  Observatory",
+  journal =	 "Science",
+  year =	 1992,
+  volume =	 256,
+  pages =	 "325-333",
+  key =          "LIGO:Science",
+  note =	 "LIGO-G920010-00-R"
+}
+
+@Article{Rai:Today,
+  author = 	 "R. Weiss and B. Barish",
+  title = 	 "{LIGO} and the Detection of Gravitational Waves",
+  key =		 "RaiLIGO",
+  journal =	 "Physics Today",
+  year =	 1999,
+  volume =	 52,
+  pages =	 "44-50",
+  note =	 "LIGO-P990039-00-R"
+}
+
+@Article{bullseye,
+  author = 	 {G. Mueller and Q. Shu and R. Adhikari and D. Tanner and 
+                  D. Reitze and D. Sigg and N. Mavalvala and J. Camp},
+  title = 	 {Determination and optimization of mode matching into 
+                  optical cavities by heterodyne detection},
+  journal = 	 {Opt. Lett.},
+  year = 	 2000,
+  key =		 {bullseye},
+  volume =	 25,
+  number =	 4,
+  pages =	 {266-268},
+  note =	 {LIGO-P000001-00-R}
+}
+
+
+@Article{Yaron:Alignment,
+  author = 	 {Y. Hefetz and N. Mavalvala and D. Sigg},
+  title = 	 {Principles of calculating alignment signals in 
+                  complex resonant optical interferometers},
+  journal = 	 {J. Opt. Soc. Am. B},
+  year = 	 1997,
+  key =		 {quad},
+  volume =	 14,
+  number =	 7,
+  pages =	 {1597+},
+  note =	 {LIGO-P960024-A-D}
+}
+
+
+@Book{Saulson,
+  author = 	 "Peter R. Saulson",
+  title = 	 "Fundamentals of Interferometric Gravitational Wave 
+		  Detectors",
+  publisher = 	 "World Scientific",
+  key =          "Saulson",
+  year = 	 1994,
+  address =	 "Singapore"
+}
+
+@Book{Schutz,
+  author = 	 "Bernard F. Schutz",
+  title = 	 "A First Course In General Relativity",
+  publisher = 	 "Cambridge University Press",
+  year = 	 1985,
+  address =	 "Cambridge, UK",
+  key =          "Schutz"
+}
+
+@Book{Siegman,
+  author = 	 "Anthony E. Siegman",
+  title = 	 "Lasers",
+  publisher = 	 "University Science Books",
+  year = 	 1986,
+  key =          "Siegman",
+  address =	 "Sausalito, California"
+}
+
+@Misc{COCwebsite,
+  key =		 "COCwebsite",
+  author =	 "GariLynn Billingsley",
+  title =	 "{LIGO} Core Optics Components Website",
+  howpublished = "http://www.ligo.caltech.edu/~gari/index.htm",
+  year =	 2002,
+  note =	 "A compilation of all specifications and metrology data 
+                  for the LIGO core optics."
+}
+
+@Book{CRCmain,
+  editor = 	 "David R. Lide",
+  title = 	 "{CRC} Handbook of Chemistry and Physics",
+  publisher = 	 "CRC Press",
+  year = 	 2000,
+  address =	 "Boca Raton, FL",
+  edition =	 "3rd electronic",
+  note =	 "Available online at http://www.knovel.com",
+  key =          "CRCmain"
+}
+
+@InCollection{CRC1,
+  author = 	 "Douglas A. Pinnow",
+  booktitle = 	 "CRC Handbook of Lasers with Selected Data on Optical
+		  Technology",
+  title = 	 "Elastooptical Materials",
+  publisher =	 "CRC Press",
+  year =	 1971,
+  editor =	 "Robert J. Pressley",
+  pages =	 "478-488",
+  address =	 "Cleveland, Ohio",
+  key =          "CRC1"
+}
+
+		  
+
+@Article{Ray,
+  author = 	 "R. Beausolei and D. Sigg",
+  title = 	 "Spatiotemporal Model of the {LIGO} Interferometer",
+  key =          "Ray",
+  journal =	 "J. Opt. Soc. Am.",
+  year =	 1999,
+  volume =	 16,
+  pages =	 "2990-3002",
+  note =	 "LIGO-P990004-00-D"
+}
+
+@Book{Weinberg,
+  author = 	 "Steven Weinberg",
+  title = 	 "Gravitation and Cosmology",
+  key =          "Weinberg",		  
+  publisher = 	 "John Wiley \& Sons",
+  year = 	 1972,
+  address =	 "New York"
+}
+
+
+@Article{collapse,
+  author = 	 {H. Dimmelmeier and J. A. Font and E. M\"{u}ller},
+  title = 	 {Gravitational Waves From Relativistic Rotational 
+                  Core Collapse in Axisymmetry},
+  journal = 	 {Class. Quantum Grav.},
+  year = 	 2002,
+  key =		 {collapse},
+  volume =	 19,
+  pages =	 {1291-1296}
+}
+
+@Article{exp_recycling,
+  author = 	 {A. Freise and G. Heinzel and K. A. Strain and 
+                  J. Mizuno and K. D. Skeldon and H. L\"{u}ck and 
+                  B. Willke and R. Schilling and A. R\"{u}diger and 
+                  W. Winkler and K. Danzmann},
+  title = 	 {Demonstration of Detuned Dual Recycling at the 
+                  Garching 30m Laser Interferometer},
+  journal = 	 {Phys. Lett. A},
+  year = 	 2000,
+  key =		 {exp_recycling},
+  volume =	 277,
+  pages =	 {135-142}
+}
+
+@Article{Ryan:CQG,
+  author = 	 {R. Lawrence and M. Zucker and P. Fritschel and D. Shoemaker},
+  title = 	 {Adaptive Thermal Compensation of Test Masses in Advanced {LIGO}},
+  journal = 	 {Class. Quantum Grav.},
+  year = 	 2002,
+  key =		 {Ryan:CQG},
+  volume =	 19,
+  pages =	 {1803-1812},
+  note =	 "LIGO-P010023-00-R"
+}
+
+@Article{mergers,
+  author = 	 {S. F. Portegies-Zwart and S. L. W. McMillan},
+  title = 	 {Black Hole Mergers in the Universe},
+  journal = 	 {Astrophys. J. Lett.},
+  year = 	 2000,
+  key =		 {mergers},
+  volume =	 528,
+  pages =	 {L17-L20}
+}
+
+@Article{nstars,
+  author = 	 {D. I. Jones},
+  title = 	 {Gravitational Waves From Rotating Strained Neutron Stars},
+  journal = 	 {Class. Quantum Grav.},
+  year = 	 2002,
+  key =		 {nstars},
+  volume =	 19,
+  pages =	 {1255-1265}
+}
+
+@Article{nstars1,
+  author = 	 {L. Bildsten},
+  title = 	 {Gravitational Radiation and Rotation of Accreting Neutron Stars},
+  journal = 	 {Astrophys. J. Lett.},
+  year = 	 1998,
+  key =		 {nstars1},
+  volume =	 501,
+  pages =	 {L89-L93}
+}
+
+@Book{numerical_recipes,
+  author =	 {William Press and Saul Teukolsky and 
+                  William Vetterling and Brian Flannery},
+  title = 	 {Numerical Recipes in C},
+  publisher = 	 {Cambridge University Press},
+  year = 	 1992,
+  key =		 {numerical_recipes},
+  address =	 {Cambridge},
+  edition =	 {2nd Edition}
+}
+
+@TechReport{phasecamera,
+  author = 	 {David Ottaway},
+  title = 	 {Optics and Laser Research at {MIT}},
+  institution =  {LIGO Laboratory},
+  year = 	 2002,
+  key =		 {phasecamera},
+  month =	 {June},
+  note =	 {LIGO-G020270-00-R}
+}
+
+@InProceedings{rates,
+  author = 	 "V. Kalogera",
+  title = 	 "Compact Binary Mergers and Accretion-Induced Collapse:  Event Rates",
+  booktitle = 	 "Gravitational Waves, Proceedings of the 
+                  Third Edoardo Amaldi Conference",
+  key =		 "rates",
+  pages =	 "41-50",
+  year =	 2000,
+  editor =	 "Sydney Meshkov",
+  volume =	 523,
+  series =	 "AIP Conference Proceedings",
+  publisher =	 "Americal Institute of Physics",
+  note =	 "astro-ph/9911532"
+}
+
+@Article{recycling,
+  author = 	 {Meers B. J.},
+  title = 	 {Recycling in Laser Interferometric Gravitational Wave Detectors},
+  journal = 	 {Phys. Rev. D},
+  year = 	 1988,
+  key =		 {recycling},
+  volume =	 38,
+  pages =	 {2317-2326}
+}
+
+
+@Article{rmodes,
+  author = 	 {B. J. Owen and L. Lindblom},
+  title = 	 {Gravitational Radiation From the R-Mode Instability},
+  journal = 	 {Class. Quantum Grav.},
+  year = 	 2002,
+  key =		 {rmodes},
+  volume =	 19,
+  pages =	 {1247-1253}
+}
+

@@ -1,0 +1,745 @@
+\newcommand{\noopsort}[1]{} \newcommand{\printfirst}[2]{#1}
+  \newcommand{\singleletter}[1]{#1} \newcommand{\switchargs}[2]{#2#1}
+\begin{thebibliography}{100}
+
+\bibitem{GEO:StatusCQG}
+B.~Willke and the GEO 600~Collaboration.
+\newblock Status of {GEO} 600.
+\newblock {\em Class. Quant. Grav.}, 21:S417--S423, 2004.
+
+\bibitem{TAMA:StatusCQG}
+R.~Takahashi and the TAMA~Collaboration.
+\newblock Status of {TAMA} 300.
+\newblock {\em Class. Quant. Grav.}, 21:S403--S408, 2004.
+
+\bibitem{LIGO:StatusCQG}
+Daniel Sigg.
+\newblock Commissioning of {LIGO} detectors.
+\newblock {\em Class. Quant. Grav.}, 21:S409--S415, 2004.
+
+\bibitem{Rai:PhysicsToday}
+R.~Weiss and B.~Barish.
+\newblock {LIGO} and the detection of gravitational waves.
+\newblock {\em Physics Today}, 52:44--50, 1999.
+\newblock LIGO-P990039-00-R.
+
+\bibitem{VIRGO:StatusCQG}
+F.~Frasconi for~the VIRGO~Collaboration.
+\newblock Status of {VIRGO}.
+\newblock {\em Class. Quant. Grav.}, 21:S385--S394, 2004.
+
+\bibitem{Einstein:Book}
+Albert Einstein.
+\newblock {\em The Meaning of Relativity}.
+\newblock Princeton University Press, 5$^{th}$ edition, 1922.
+
+\bibitem{MTW}
+C.~W. Misner, K.~S. Thorne, and J.~A. Wheeler.
+\newblock {\em Gravitation}.
+\newblock W. H. Freeman and Co., 1970.
+
+\bibitem{Kip:300}
+Kip Thorne.
+\newblock {\em 300 Years of Gravitation}, chapter~9, page 390.
+\newblock Camb. Univ. Press, 1987.
+
+\bibitem{Landau:Fields}
+L.~D. Landau and E.~M. Lifshitz.
+\newblock {\em The Classical Theory of Fields}.
+\newblock Pergamon Press, Ltd., 1951.
+
+\bibitem{Kip:Probing}
+Kip~S. Thorne.
+\newblock Probing black holes and relativistic stars with gravitational waves.
+\newblock arXiv, June 1997.
+\newblock \href{http://xxx.lanl.gov/abs/gr-qc/9706079}
+  {http://xxx.lanl.gov/abs/gr-qc/9706079}.
+
+\bibitem{Bildsten:Braking}
+L.~Bildsten.
+\newblock Gravitational radiation and rotation of accreting neutron stars.
+\newblock {\em Astro. Journal}, 501:L89--L93, 1998.
+
+\bibitem{Deepto:Braking}
+D.~Chakrabarty, E.~H. Morgan, M.~P. Muno, D.~K. Galloway, R.~Wijnands,
+  M.~van~der Klis, and C.~B. Markward.
+\newblock Nuclear-powered millisecond pulsars and the maximum spin frequency of
+  neutron stars.
+\newblock {\em Nature}, 424:42--44, July 2003.
+
+\bibitem{Hereld:Thesis}
+Mark Hereld.
+\newblock {\em A Search for Gravitational Radiation from {PSR 1937+214}}.
+\newblock PhD thesis, California Institute of Technology, 1983.
+
+\bibitem{Mike:Thesis}
+Mike Zucker.
+\newblock {\em Experiments with a Laser Interferometric Gravitational Wave
+  Antenna}.
+\newblock PhD thesis, California Institute of Technology, July 1988.
+
+\bibitem{S1:Pulsar}
+{LIGO}~Scientific Collaboration.
+\newblock Setting upper limits on the strength of periodic gravitational waves
+  from {PSR} j1939 + 2134 using the first science data from the {GEO600} and
+  {LIGO} detectors.
+\newblock {\em Phys. Rev. D}, 2004.
+
+\bibitem{S1:Stochastic}
+{LIGO}~Scientific Collaboration.
+\newblock Analysis of first {LIGO} science data for stochastic gravitational
+  waves.
+\newblock {\em arXiv}, 2003.
+\newblock \href{http://xxx.lanl.gov/abs/gr-qc/0312088}
+  {http://xxx.lanl.gov/abs/gr-qc/0312088}.
+
+\bibitem{Bruce:Houches}
+B.~Allen.
+\newblock The stochastic gravity-wave background:sources and detection.
+\newblock In J.A. Marck and J.~P. Lasota, editors, {\em Proceedings of the Les
+  Houches School on Astrophysical Sources of Gravitational Waves}, page 373,
+  Les Houches, 1995.
+\newblock Revised version: \href{http://xxx.lanl.gov/abs/gr-qc/9604033}
+  {http://xxx.lanl.gov/abs/gr-qc/9604033}.
+
+\bibitem{Nelson:Thesis}
+Nelson Christensen.
+\newblock {\em On Measuring the Stochastic Gravitational Radiation Background
+  with Laser Interferometric Antennas}.
+\newblock PhD thesis, Massachusetts Institute of Technology, August 1990.
+
+\bibitem{Nelson:SB}
+Nelson Christensen.
+\newblock Measuring the stochastic gravitational-radiation background with
+  laser-interferometric antennas.
+\newblock {\em Phys. Rev. D}, 46(12):5250--5266, 1992.
+
+\bibitem{Bruce:Stochastic}
+B.~Allen and J.~Romano.
+\newblock Detecting a stochastic background of gravitational radiation: Signal
+  processing strategies and sensitivities.
+\newblock {\em Phys. Rev. D}, 59:102001, 1999.
+
+\bibitem{Bars:Status}
+Viviana Fafone.
+\newblock Resonant-mass detectors: status and perspectives.
+\newblock {\em Class. Quantum Grav.}, 21:S377--S383, 2004.
+
+\bibitem{Tyson:1982}
+B.~L. Brown, A.~P. Mills, and J.~A. Tyson.
+\newblock Results of a 440-day search for gravitational radiation.
+\newblock {\em Phys. Rev. D}, 26(6):1209--1218, September 1982.
+
+\bibitem{Bruce:chisquare}
+B.~Allen.
+\newblock A $\chi^2$ time-frequency discriminator for gravitational wave
+  detection.
+\newblock {\em arXiv}, pages gr--qc/0405045, 2004.
+\newblock \href{http://xxx.lanl.gov/abs/gr-qc/0405045}
+  {http://xxx.lanl.gov/abs/gr-qc/0405045}.
+
+\bibitem{BCV1}
+A.~Buonanno, Y.~Chen, and M.~Vallisneri.
+\newblock Detection template families for gravitational waves from the final
+  stages of binary black-hole inspirals: Nonspinning case.
+\newblock {\em Phys. Rev. D}, 67:024016, 2003.
+
+\bibitem{Jorge:Numerical}
+G.~Calabrese, J.~Pullin, O.~Sarbach, and M.~Tiglio.
+\newblock {Convergence and stability in numerical relativity}.
+\newblock {\em Phys. Rev. D}, 66(4):041501, 2002.
+
+\bibitem{Parkes:Nature}
+M.~Burgay, N.~D'Amico, A.~Possenti, R.~N. Manchester, A.~G. Lyne, B.~C. Joshi,
+  M.~A. McLaughlin, M.~Kramer, J.~M. Sarkissian, F.~Camilo, V.~Kalogera, C.Kim,
+  and D.~R. Lorimer.
+\newblock An increased estimate of the merger rate of double neutron stars from
+  observations of a highly relativistic system.
+\newblock {\em Nature}, 426:531--533, 2003.
+
+\bibitem{Vicki:Rates}
+C.~Kim, V.~Kalogera, D.~R. Lorimer, M.~Ihm, and K.~Belczynski.
+\newblock The galactic double-neutron-star merger rate: Most current estimates.
+\newblock In F.~Rasio, editor, {\em Binary Radio Pulsars}, 2004.
+\newblock \href{http://xxx.lanl.gov/abs/astro-ph/0405564}
+  {http://xxx.lanl.gov/abs/astro-ph/0405564}.
+
+\bibitem{Hulse:Pulsar}
+R.~A. Hulse and J.~H. Taylor.
+\newblock Discovery of a pulsar in a binary system.
+\newblock {\em Astrophys. Journ.}, 195:L51--L53, 1975.
+
+\bibitem{Taylor:1913}
+J.~M. Weisberg and J.~H. Taylor.
+\newblock General relativistic geodetic spin precession in binary pulsar
+  {B1913+16:} mapping the emission beam in two dimensions.
+\newblock {\em Astrophys. Journ.}, 576(2):942--949, 2002.
+
+\bibitem{Taylor:1829}
+D.~J. Champion, D.~R. Lorimer, M.~A. McLaughlin, J.~M. Cordes, Z.~Arzoumanian,
+  J.~M. Weisberg, and J.~H. Taylor.
+\newblock {PSR J1829+2456:} a relativistic binary pulsar.
+\newblock {\em Mon. Not. R. Astron. Soc.}, 000:1--5, March 2004.
+
+\bibitem{S1:Inspiral}
+{LIGO}~Scientific Collaboration.
+\newblock Analysis of {LIGO} data for gravitational waves from binary neutron
+  stars.
+\newblock {\em Phys. Rev. D}, 69:122001, 2004.
+
+\bibitem{40m:Inspiral}
+B.~Allen, J.~K. Blackburn, P.~R. Brady, J.~D.~E Creighton, T.~Creighton,
+  S.~Droz, A.~D. Gillespie, S.~A. Hughes, S.~Kawamura, T.~T. Lyons, J.~E.
+  Mason, B.~J. Owen, F.~J. Raab, M.~W. Regehr, B.~S. Sathyaprakash, Jr.
+  R.~L.~Savage, S.~Whitcomb, and A.~G. Wiseman.
+\newblock Observational limit on gravitational waves from binary neutron stars
+  in the galaxy.
+\newblock {\em Phys. Rev. Lett.}, 83:1498--1501, 1999.
+
+\bibitem{TAMA:Inspiral}
+H.~Tagoshi et~al.
+\newblock First search for gravitational waves from inspiraling compact
+  binaries using {TAMA300} data.
+\newblock {\em Phys. Rev. D}, 63, 2001.
+
+\bibitem{Mergers}
+S.~F. Portegies-Zwart and S.~L.~W. McMillan.
+\newblock Black hole mergers in the universe.
+\newblock {\em Astrophys. J. Lett.}, 528:L17--L20, 2000.
+
+\bibitem{Kerr:BH}
+R.~P. Kerr.
+\newblock Gravitational field of a spinning mass as an example of algebraically
+  special metrics.
+\newblock {\em Phys. Rev. Lett.}, 11:237--238, 1963.
+
+\bibitem{Scott:RD}
+E.~E. Flanagan and S.~A. Hughes.
+\newblock Measuring gravitational waves from binary black hole coalescences. i.
+  signal to noise for inspiral, merger, and ringdown.
+\newblock {\em Phys. Rev. D}, 57(8):4535--4565, 1998.
+
+\bibitem{BHWDNS}
+S.~L. Shapiro and S.~A. Teukolsky.
+\newblock {\em Black Hoels, White Dwarfs, and Neutron Stars}.
+\newblock John Wiley \& Sons, 1983.
+
+\bibitem{LivingReview:Ring}
+K.~D. Kokkotas and B.~G. Schmidt.
+\newblock Quasi-normal modes of stars and black holes.
+\newblock {\href{http://relativity.livingreviews.org/Articles/lrr-1999-2/}
+  {http://relativity.livingreviews.org/Articles/lrr-1999-2/}}, 1999.
+
+\bibitem{RW:RD}
+T.~Regge and J.~A. Wheeler.
+\newblock Stability of a {S}chwarzschild singularity.
+\newblock {\em Phys. Rev.}, 108(4):1063--1069, 1957.
+
+\bibitem{Chandra:RD}
+S.~Chandrasekhar and S.~Detweiler.
+\newblock The quasi-normal modes of the {S}chwarzschild black hole.
+\newblock {\em Proc. R. Soc. Lond. A}, 344(1639):441--452, Aug 1975.
+
+\bibitem{Echeverria:RD}
+F.~Echeverria.
+\newblock Gravitational-wave measurements of the mass and angular momentum of a
+  black hole.
+\newblock {\em Phys. Rev. D}, 40(10):3194--3203, 1989.
+
+\bibitem{Leaver:RD}
+E.~W. Leaver.
+\newblock An analytic representation for the quasi-normal modes of {K}err black
+  holes.
+\newblock {\em Proc. R. Soc. Lond.}, A(402):285--298, 1985.
+
+\bibitem{Jolien:40m}
+Jolien D.~E. Creighton.
+\newblock Search techniques for gravitational waves from black-hole ringdowns.
+\newblock {\em Phys. Rev. D}, 60:022001--022009, June 1999.
+
+\bibitem{Detweiler:Battelle}
+S.~L. Detweiler.
+\newblock Black holes and gravitational waves: Perturbation analysis.
+\newblock In L.~L. Smarr, editor, {\em Sources of Gravitational Radiation},
+  pages 211--243, Seattle, WA, July 1979. Battelle, Camb. Univ. Press.
+
+\bibitem{TAMA:RD}
+Y.~Tsunesada and the TAMA~Collaboration.
+\newblock Search for gravitational waves from black-hole ringdowns using
+  {TAMA300} data.
+\newblock {\em Class. Quantum Grav.}, 21:S703--S708, 2004.
+
+\bibitem{Weber:1960}
+J.~Weber.
+\newblock Detection and generation of gravitational waves.
+\newblock {\em Phys. Rev.}, 117:306--313, 1960.
+
+\bibitem{Levine:Bar}
+J.~L. Levine and R.~L. Garwin.
+\newblock New negative result for gravitational wave detection and comparison
+  with reported detection.
+\newblock {\em Phys. Rev. Lett.}, 33(13):794--797, September 1974.
+
+\bibitem{Tyson:Bar}
+J.~A. Tyson.
+\newblock Null search for bursts of gravitational radiation.
+\newblock {\em Phys. Rev. Lett.}, 31(5):326--329, July 1973.
+
+\bibitem{Weber:1969}
+J.~Weber.
+\newblock Evidence for discovery of gravitational radiation.
+\newblock {\em Phys. Rev. Lett.}, 22:1320--1324, 1969.
+
+\bibitem{Misner:beaming}
+C.~W. Misner, R.~A. Breuer, D.~R. Brill, P.~L. Chrzanowski, H.~G. Hughes, and
+  C.~M. Pereira.
+\newblock Gravitational synchrotron radiation in the {Schwarzschild} geometry.
+\newblock {\em Phys. Rev. Lett.}, 28:998--1001, 1972.
+
+\bibitem{Hawking:Bursts}
+S.W. Hawking.
+\newblock Theory of the detection of short bursts of gravitational radiation.
+\newblock {\em Phys. Rev. D}, 4:2191--2197, 1971.
+
+\bibitem{Bars}
+A.~Morse, W.~O. Hamilton, W.~W. Johnson, E.~Mauceli, and M.~P. McHugh.
+\newblock Calibration and sensitivity of resonant-mass gravitational wave
+  detectors.
+\newblock {\em Phys. Rev. D}, 59, 1999.
+
+\bibitem{Spheres}
+M.~Cerdonio, L.~Conti, J.~A. Lobo, A.~Ortolan, L.~Taffarello, and J.~P. Zendri.
+\newblock Wideband dual sphere detector of gravitational waves.
+\newblock {\em Phys. Rev. Lett.}, 87, 2001.
+
+\bibitem{Pirani:GR}
+F.~A.~E. Pirani.
+\newblock {\em Acta. Phys. Polon.}, 15:389, 1956.
+
+\bibitem{Forward:Interferometer}
+G.F. Moss, L.R. Miller, and R.L. Forward.
+\newblock Photon-noise-limited laser transducer for gravitational antenna.
+\newblock {\em Applied Optics}, 10:2495--2498, 1971.
+
+\bibitem{Rai:QPR}
+Rainer Weiss.
+\newblock Electromagnetically coupled broadband gravitational antenna.
+\newblock Quarterly Progress Report 105, Research Laboratory of Electronics,
+  MIT, April 1972.
+
+\bibitem{Mizuno:Thesis}
+Jun Mizuno.
+\newblock {\em Comparison of optical configurations for laser-interferometric
+  gravitational-wave detectors}.
+\newblock PhD thesis, Max-Planck-Institut Fur Quantenoptik, July 1995.
+
+\bibitem{Rai:NSF}
+Rai Weiss.
+\newblock Caltech/{MIT} project for a laser interferometer gravitational wave
+  observatory.
+\newblock Proposal to the National Science Foundation, 1987.
+
+\bibitem{Byer:Sagnac}
+K.~X. Sun, M.~M. Fejer, E.~G. Gustafson, and R.~L. Byer.
+\newblock Sagnac interferometer for gravitational wave detection.
+\newblock {\em Phys. Rev. Lett.}, 76(16), April 1996.
+
+\bibitem{Drever:Houches}
+Ronald W.~P. Drever.
+\newblock Interferometric detectors of gravitational radiation.
+\newblock In N.~Deruelle and T.~Piran, editors, {\em Gravitational Radiation},
+  pages 321--338, Centre de Physique des Houches, 1982.
+
+\bibitem{Herriot}
+D.~R. Herriot and H.~J. Schulte.
+\newblock Folded optical delay lines.
+\newblock {\em Appl. Opt.}, 4(883-889), 1965.
+
+\bibitem{David:Garching}
+D.~Shoemaker, R.~Schilling, L.~Schnupp, W.~Winkler, K.~Maischberger, and
+  A.~Rüdiger.
+\newblock Noise behavior of the garching 30-meter prototype gravitational-wave
+  detector.
+\newblock {\em Phys. Rev. D}, 38(2):423--432, July 1988.
+
+\bibitem{FabryPerot}
+Ch. Fabry and A.~Perot.
+\newblock On a new form of interferometer.
+\newblock {\em Astrophys. J.}, 13:265--272, 1901.
+
+\bibitem{Peter:Thesis}
+Peter~K. Fritschel.
+\newblock {\em Techniques for Laser Interferometer Gravitational Wave
+  Detectors}.
+\newblock PhD thesis, Massachusetts Institute of Technology, February 1992.
+
+\bibitem{Schilling:Recycling}
+D.~Schnier, J.~Mizuno, G.~Heinzel, H.~L$\ddot{\mbox{u}}$ck,
+  A.~R$\ddot{\mbox{u}}$diger, R.~Schilling, M.~Schrempel, W.~Winkler, and
+  K.~Danzmann.
+\newblock Power recyling in the garching 30 m prototype interferometer for
+  gravitational-wave detection.
+\newblock {\em Phys. Lett. A}, 225:210--216, 1997.
+
+\bibitem{Regehr:Thesis}
+Martin~W. Regehr.
+\newblock {\em Signal Extraction and Control for an Interferometric
+  Gravitational Wave Detector}.
+\newblock PhD thesis, Caltech, 1995.
+
+\bibitem{Sigg:FreqResp}
+Daniel Sigg.
+\newblock Frequency response of the {LIGO} interferometer.
+\newblock Technical report, MIT, 1997.
+\newblock LIGO-T970084-00-D.
+
+\bibitem{Pound:Locking}
+R.~V. Pound.
+\newblock Electronic frequency stabilization of microwave oscillators.
+\newblock {\em Rev. Sci. Inst.}, 17:490--505, 1946.
+
+\bibitem{Drever:PDH}
+R.~W.~P. Drever, J.~L. Hall, F.~V. Kowalski, J.~Hough, G.~M. Ford, A.~J.
+  Munley, and H.~Ward.
+\newblock Laser phase and frequency stabilization using an optical resonator.
+\newblock {\em Appl. Phys. B}, 31:97--105, June 1983.
+
+\bibitem{useism}
+A.~BenMenahem and Sarva~Jit Singh.
+\newblock {\em Seismic Waves and Sources}.
+\newblock Springer-Verlag, 1981.
+\newblock 776-796.
+
+\bibitem{Giaime:ShitStack}
+J.~Giaime, P.~Saha, D.~Shoemaker, and L.~Sievers.
+\newblock A passive vibration isolation stack for {LIGO}: Design, modeling, and
+  testing.
+\newblock {\em Rev. Sci. Inst.}, 67:208--214, 1996.
+
+\bibitem{Callen:FD}
+H.~B. Callen and T.~A. Welton.
+\newblock Irreversibility and generalized noise.
+\newblock {\em Phys. Rev.}, 83:34--40, 1951.
+
+\bibitem{Saulson:Book}
+Peter~R. Saulson.
+\newblock {\em Fundamentals of Interferometric Gravitational Wave Detectors}.
+\newblock World Scientific, 1994.
+
+\bibitem{Fred:Thermal}
+A.~Gillespie and F.~Raab.
+\newblock Thermally excited vibrations of the mirrors of laser interferometer
+  gravitational-wave detectors.
+\newblock {\em Phys. Rev. D}, 52:577--585, 1995.
+
+\bibitem{Gaby:Acoustic}
+G.~I. Gonz\'alez and P.~R. Saulson.
+\newblock Brownian motion of a mass suspended by an anelastic wire.
+\newblock {\em Journal of the Acoustical Society of America}, 96:207--212,
+  1994.
+
+\bibitem{Levin:Thermal}
+Yu. Levin.
+\newblock Internal thermal noise in the {LIGO} test masses: a direct approach.
+\newblock {\em Physical Review D}, 57:659--663, 1998.
+
+\bibitem{Andri:Coatings}
+G.~M. Harry, A.~M. Gretarsson, P.R. Saulson, S.~E. Kittelberger, S.D. Penn,
+  W.J.Startin, S.~Rowan, M.M. Fejer, D.R.M. Crooks, G.~Cagnoli, J.~Hough, and
+  N.~Nakagawa.
+\newblock Thermal noise in interferometric gravitational wave detectors due to
+  dielectric optical coatings.
+\newblock {\em Class. Quantum Grav.}, 19:897--917, 2002.
+
+\bibitem{Gregg:Pie}
+Gregg Harry.
+\newblock personal communication.
+
+\bibitem{Gaby:Thermal}
+Gabriela Gonz\'alez.
+\newblock Suspension thermal noise in the {LIGO} gravitational wave detector.
+\newblock {\em Class. Quantum Grav.}, 17:4409--4435, 2000.
+\newblock \href{http://arxiv.org/abs/gr-qc/0006053}
+  {http://arxiv.org/abs/gr-qc/0006053}.
+
+\bibitem{Kovalik:Clamps}
+G.~Cagnoli, L.~Gammaitoni, J.~Kovalik, F.~Marchesoni, and M.~Punturo.
+\newblock Suspension losses in low-frequency mechanical pendulums.
+\newblock {\em Phys. Lett. A}, 213:245--252, 1996.
+
+\bibitem{Kovalik:ClampSpeech}
+Joe Kovalik.
+\newblock private communication.
+
+\bibitem{COCwebsite}
+GariLynn Billingsley.
+\newblock {LIGO} core optics components website.
+\newblock {\href{http://www.ligo.caltech.edu/~gari/index.htm}
+  {http://www.ligo.caltech.edu/$\sim$gari/index.htm}}, 2002.
+\newblock A compilation of specifications and metrology data for the LIGO core
+  optics.
+
+\bibitem{Caves:RadPress}
+C.~M. Caves.
+\newblock Quantum-mechanical radiation-pressure fluctuations in an
+  interferometer.
+\newblock {\em Phys. Rev. Lett.}, 45(2):75--79, July 1980.
+
+\bibitem{Yariv}
+Amnon Yariv.
+\newblock {\em Quantum Electronics}.
+\newblock John Wiley and Sons, Inc., Caltech, 1989.
+
+\bibitem{Peter:YAG}
+P.~Fritschel, A.~Jeffries, and T.~Kane.
+\newblock Frequency fluctuations of a diode-pumped {Nd:YAG} ring laser.
+\newblock {\em Optics Lett.}, 14(18):993--995, Sep 1989.
+
+\bibitem{Dennis:WedgeAngles}
+Dennis Coyne.
+\newblock Determination of the wedge angles for the core optics components.
+\newblock Technical report, {LIGO}/Caltech, 1997.
+\newblock \href{http://www.ligo.caltech.edu/docs/T/T970091-00.pdf}
+  {http://www.ligo.caltech.edu/docs/T/T970091-00.pdf}.
+
+\bibitem{Caves:Squeezing}
+C.~M. Caves.
+\newblock Quantum-mechanical noise in an interferometer.
+\newblock {\em Phys. Rev. D}, 23(8):1693--1708, April 1981.
+
+\bibitem{Niebauer:ShotNoise}
+T.~M. Niebauer, R.~Schilling, K.~Danzmann, A.~R$\ddot{\mbox{u}}$diger, and
+  W.~Winkler.
+\newblock Nonstationary shot noise and its effect on the sensitivity of
+  interferometers.
+\newblock {\em Phys. Rev. A}, 43(9):5022--5029, 1991.
+
+\bibitem{Meers:modulation}
+B.~J. Meers and K.~A. Strain.
+\newblock Modulation, signal, and quantum noise in interferometers.
+\newblock {\em Phys. Rev. A}, 44(7):4693--4703, October 1991.
+
+\bibitem{Brian:Thesis}
+Brian~T. Lantz.
+\newblock {\em Quantum Limited Optical Phase Detection in a High Power
+  Suspended Interferometer}.
+\newblock PhD thesis, Massachusetts Institute of Technology, February 1999.
+
+\bibitem{Fritschel:PNI}
+P.~Fritschel, G.~Gonzalez, B.~Lantz, P.~Saha, and M.~Zucker.
+\newblock High power interferometric phase meausrement limited by quantum noise
+  and the application to the detection of gravitational waves.
+\newblock {\em Phys. Rev. Lett.}, 80:3181--3184, 1998.
+\newblock LIGO-P970009-00-R.
+
+\bibitem{Yaron:Alignment}
+Y.~Hefetz, N.~Mavalvala, and D.~Sigg.
+\newblock Principles of calculating alignment signals in complex resonant
+  optical interferometers.
+\newblock {\em J. Opt. Soc. Am. B}, 14(7):1597+, 1997.
+\newblock LIGO-P960024-A-D.
+
+\bibitem{Sigg:Readout}
+P.~Fritschel, R.~Bork, G.~Gonz\'alez, N.~Mavalvala, D.~Ouimette, H.~Rong,
+  D.~Sigg, and M.~Zucker.
+\newblock Readout and control of a power-recycled interferometric
+  gravitational-wave antenna.
+\newblock {\em Applied Optics}, 40(28):4988--4998, October 2001.
+
+\bibitem{S1:Inst}
+The {LIGO}~Scientific Collaboration.
+\newblock Detector description and performance for the first coincidence
+  observations between {LIGO} and {GEO}.
+\newblock {\em Nucl.Instrum.Meth.}, 517:154--179, 2004.
+
+\bibitem{e2e:Moriond}
+B.~Bhawal, M.~Evans, H.~Yamamoto, M.~Rakhmanov, and V.~Sannibale.
+\newblock The {LIGO} end-to-end simulation program.
+\newblock In J.~Dumarchez and J.~Tran~Thanh Van, editors, {\em Proceedings of
+  the XXXVIIIth Rencontres de Moriond workshop on ``Gravitational Waves and
+  Experimental Gravity''}, pages 131--138, 2004.
+
+\bibitem{Alignment:Applied}
+P.~Fritschel, G.~Gonz\'alez, N.~Mavalvala, D.~Shoemaker, D.~Sigg, and
+  M.~Zucker.
+\newblock Alignment of a interferometric gravitational wave detector.
+\newblock {\em Applied Optics}, 37:6734--6747, 1998.
+
+\bibitem{Nergis:Thesis}
+Nergis Mavalvala.
+\newblock {\em Alignment Issues in Laser Interferometric Gravitational-Wave
+  Detectors}.
+\newblock PhD thesis, Massachusetts Institute of Technology, 1997.
+\newblock January.
+
+\bibitem{Fred:Tides}
+F.~Raab and M.~Fine.
+\newblock The effect of earth tides on {LIGO} interferometers.
+\newblock Technical report, {LIGO} project, 1997.
+\newblock \href{http://www.ligo.caltech.edu/docs/T/T970059-01.pdf}
+  {http://www.ligo.caltech.edu/docs/T/T970059-01.pdf}.
+
+\bibitem{Giaime:MSFF}
+J.~A. Giaime, E.~J. Daw, M.~Weitz, R.~Adhikari, P.~Fritschel, R.~Abbott,
+  R.~Bork, and J.~Heefner.
+\newblock Feedforward reduction of the microseism disturbance in a
+  long-base-line interferometric gravitational-wave detector.
+\newblock {\em Rev. Sci. Inst.}, 74:218--224, 2003.
+
+\bibitem{Giaime:PEPI}
+J.~A. Giaime, E.~J. Daw, R.~Adhikari, H.~Overmier, G.~Traylor, and J.~Hanson.
+\newblock 2 {DOF} active isolation of a gravitational wave interferometer.
+\newblock {\em Rev. Sci. Inst.}, 94:218--224, 2003.
+
+\bibitem{S1:Calibration}
+R.~Adhikari, G.~Gonz\'{a}lez, M.~Landry, and B.~O'Reilly (for~the LIGO
+  Scientific~Collaboration).
+\newblock Calibration of the {LIGO} detectors for the first {LIGO} science run.
+\newblock {\em Class. Quantum Grav.}, 20(17):S903--S914, 2003.
+
+\bibitem{S2:Calibration}
+G.~Gonz\'{a}lez, M.~Landry, and B.~O'Reilly.
+\newblock Calibration of the {LIGO} detectors for {S2}.
+\newblock Technical report, {LIGO}, 2004.
+\newblock \href{http://www.ligo.caltech.edu/docs/T/T040060-00.pdf}
+  {http://www.ligo.caltech.edu/docs/T/T040060-00.pdf}.
+
+\bibitem{Hua:60Hz}
+B.~Allen, W.~Hua, and A.~Ottewill.
+\newblock Automatic cross-talk removal from multi-channel data.
+\newblock {\em arXiv}, pages gr--qc/9909083, 1999.
+\newblock \href{http://xxx.lanl.gov/abs/gr-qc/9909083}
+  {http://xxx.lanl.gov/abs/gr-qc/9909083}.
+
+\bibitem{Shourov:LPF}
+S.~Chatterji, L.~Blackburn, and E.~Katsavounidis.
+\newblock Multiresolution techniques for the detection of gravitational-wave
+  bursts.
+\newblock submitted to Class. Quantum Grav., 2004.
+
+\bibitem{Owen:templates}
+B.~J. Owen.
+\newblock Search templates for gravitational waves from inspiraling binaries:
+  Choice of template spacing.
+\newblock {\em Phys. Rev. D}, 53(12):6749--6761, June 1996.
+
+\bibitem{VIRGO:templates}
+N.~Arnaud, M.~Barsuglia, M.~Bizouard, V.~Brisson, F.~Cavalier, M.~Davier,
+  P.~Hello, S.~Kreckelbergh, and E.~K. Porter.
+\newblock Elliptic tiling method to generate a 2-dimensional set of templates
+  for gravitational wave research.
+\newblock {\em Phys. Rev. D}, 67:102003, 2003.
+
+\bibitem{TAMA:templates}
+H.~Nakano, H.~Takahashi, H.~Tagoshi, and M.~Sasaki.
+\newblock An effective search method for gravitational ringing of black holes.
+\newblock {\em Phys. Rev. D}, 68:102003, 2003.
+
+\bibitem{S1:Bursts}
+{LIGO}~Scientific Collaboration.
+\newblock First upper limits from {LIGO} on gravitational wave bursts.
+\newblock {\em Phys. Rev. D}, 69:102001, 2004.
+
+\bibitem{Laura:Rstat}
+Laura Cadonati.
+\newblock Coherent waveform consistency test for {LIGO} burst candidates.
+\newblock to be published in the GWDAW-8 proceedings.
+
+\bibitem{Giaime:AdvIso}
+R.~Abbott, R.~Adhikari, G.~Allen, S.~Cowley, E.~Daw, D.~DeBra, J.~Giaime,
+  G.~Hammond, M.~Hammond, C.~Hardham, J.~How, W.~Hua, W.~Johnson, B.~Lantz,
+  K.~Mason, R.~Mittleman, J.~Nichol, S.~Richman, J.~Rollins, D.~Shoemaker,
+  G.~Stapfer, and R.~Stebbins.
+\newblock Seismic isolation for advanced {LIGO}.
+\newblock {\em Class. Quantum Grav.}, pages 1591--1597, 2002.
+
+\bibitem{Ryan:Thesis}
+Ryan Lawrence.
+\newblock {\em Active wavefront Correction in Laser Interferometric
+  Gravitational Wave Detectors}.
+\newblock PhD thesis, Massachusetts Institute of Technology, February 2003.
+
+\bibitem{Levin:SUSthermal}
+V.~B. Braginsky, Yu. Levin, and S.~Vyatchanin.
+\newblock How to reduce the suspension thermal noise in {LIGO} without
+  improving the {Q's} of the pendulum and violin modes.
+\newblock {\em Measur. Sci. Tech.}, 10:598--606, 1999.
+\newblock \href{http://arxiv.org/abs/gr-qc/9805031}
+  {http://arxiv.org/abs/gr-qc/9805031}.
+
+\bibitem{Peter:DCreadout}
+P.~Fritschel and K.~Strain.
+\newblock {DC} readout for advanced {LIGO}.
+\newblock in preperation, 2003.
+
+\bibitem{CODATA}
+NIST.
+\newblock 2002 codata values.
+\newblock \href{http://physics.nist.gov/constants/}
+  {http://physics.nist.gov/constants/}, 2003.
+\newblock Latest constants as of December 2002.
+
+\bibitem{Siegman}
+Anthony~E. Siegman.
+\newblock {\em Lasers}.
+\newblock University Science Books, Sausalito, California, 1986.
+
+\bibitem{Matt:Thesis}
+Matt Evans.
+\newblock {\em Lock Acquisition in Resonant Optical Interferometers}.
+\newblock PhD thesis, Caltech, 2002.
+
+\bibitem{Matt:LApaper}
+M.~Evans, N.~Mavalvala, P.~Fritschel, R.~Bork, B.~Bhawal, H.~Yamamoto, and
+  S.~Whitcomb.
+\newblock Lock acquisition of a gravitational wave interferometer.
+\newblock {\em Optics Lett.}, 27(8):598--600, 2002.
+\newblock LIGO-P010015-A-D.
+
+\bibitem{Rai:GPS}
+W.E. Althouse, S.D. Hand, L.K. Jones, A.~Lazzarini, and R.~Weiss.
+\newblock Precision alignment of the {LIGO} 4 km arms using the dual-frequency
+  differential global positioning system.
+\newblock {\em Rev. Sci. Inst.}, 72(7):3086--3094, July 2001.
+
+\bibitem{Rick:ArmLengths}
+M.~Rakhmanov, F.~Bondu, O.~Debieu, and R.~L.~Savage Jr.
+\newblock Characterization of the {LIGO} 4 km fabry-perot cavities via their
+  high-frequency dynamic responses to length and laser frequency variations.
+\newblock {\em Class. Quantum Grav.}, 21:S487--S492, 2004.
+
+\bibitem{Andri:elog}
+Andri Gretarrsson.
+\newblock personal communication.
+
+\bibitem{Rai:Metrology}
+Rai Weiss.
+\newblock Compilation of metrology data for the {LIGO} large optics.
+\newblock Technical report, MIT, 1998.
+\newblock \href{http://www.ligo.caltech.edu/docs/T/T980065-00.pdf}
+  {http://www.ligo.caltech.edu/docs/T/T980065-00.pdf}.
+
+\bibitem{Fred:SuspensionLoss}
+A.~{Gillespie} and F.~{Raab}.
+\newblock {Suspension losses in the pendula of laser interferometer
+  gravitational-wave detectors}.
+\newblock {\em Phys. Lett. A}, 190:213--220, July 1994.
+
+\bibitem{Rick:Laser}
+R.~Savage, P.~King, and S.~Seel.
+\newblock A highly stabilized 10-watt {Nd:YAG} laser for {LIGO}.
+\newblock {\em Laser Phys.}, 8:679, 1998.
+
+\bibitem{PK:CS}
+R.~S. Abbott and P.~K. King.
+\newblock Diode-pumped {Nd:YAG} laser intensity noise suppression using a
+  current shunt.
+\newblock {\em Rev. Sci. Inst.}, 72:1346--1349, 2001.
+
+\bibitem{Sigg:GW}
+Daniel Sigg.
+\newblock Gravitational waves.
+\newblock In {\em Proceedings of TASI 98}, Boulder, CO, 1998.
+\newblock LIGO-P980007-00-D.
+
+\end{thebibliography}

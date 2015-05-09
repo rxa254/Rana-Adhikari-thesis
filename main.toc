@@ -1,0 +1,190 @@
+\contentsline {chapter}{Introduction}{19}{chapter*.6}
+\contentsline {chapter}{\numberline {1}Gravitational Radiation}{21}{chapter.1}
+\contentsline {section}{\numberline {1.1}Gravitational Radiation in General Relativity}{22}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Measurable Effect on Free Masses}{23}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Radiation Amplitudes}{24}{subsection.1.1.2}
+\contentsline {section}{\numberline {1.2}Astrophysical Sources}{25}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Monochromatic Signals}{25}{subsection.1.2.1}
+\contentsline {subsubsection}{Upper Limits and Measurements}{27}{section*.7}
+\contentsline {subsection}{\numberline {1.2.2}Stochastic Background}{27}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Bursts}{27}{subsection.1.2.3}
+\contentsline {subsubsection}{Previous Searches}{28}{section*.8}
+\contentsline {subsection}{\numberline {1.2.4}Binary Inspiral}{28}{subsection.1.2.4}
+\contentsline {subsubsection}{Rate Estimates}{29}{section*.9}
+\contentsline {subsubsection}{Upper Limits and Measurements}{29}{section*.10}
+\contentsline {subsection}{\numberline {1.2.5}Ringdowns}{30}{subsection.1.2.5}
+\contentsline {subsubsection}{Rate Estimates}{32}{section*.11}
+\contentsline {subsubsection}{Previous Searches}{32}{section*.12}
+\contentsline {chapter}{\numberline {2}Gravitational Wave Antennae}{33}{chapter.2}
+\contentsline {section}{\numberline {2.1}Resonant Mass Detectors (Bars)}{34}{section.2.1}
+\contentsline {section}{\numberline {2.2}Laser Interferometers}{34}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}The Michelson Interferometer}{35}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Fabry-Perot Resonators}{37}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Power Recycling}{37}{subsection.2.2.3}
+\contentsline {chapter}{\numberline {3}Signal Extraction}{41}{chapter.3}
+\contentsline {section}{\numberline {3.1}Signal Readout Scheme}{42}{section.3.1}
+\contentsline {section}{\numberline {3.2}Elements of the Sensing Matrix}{44}{section.3.2}
+\contentsline {section}{\numberline {3.3}Dark Port Signal Generation}{48}{section.3.3}
+\contentsline {chapter}{\numberline {4}The Noises}{51}{chapter.4}
+\contentsline {section}{\numberline {4.1}Displacement Noises}{52}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Seismic Noise}{52}{subsection.4.1.1}
+\contentsline {subsubsection}{Noise Characteristics}{52}{section*.13}
+\contentsline {subsubsection}{Seismic Isolation}{53}{section*.14}
+\contentsline {subsection}{\numberline {4.1.2}Thermal Noise}{54}{subsection.4.1.2}
+\contentsline {subsubsection}{Test Mass Thermal Noise}{56}{section*.15}
+\contentsline {subsubsection}{Suspension Thermal Noise}{57}{section*.16}
+\contentsline {subsection}{\numberline {4.1.3}Radiation Pressure}{59}{subsection.4.1.3}
+\contentsline {subsubsection}{Quantum Radiation Pressure}{59}{section*.17}
+\contentsline {subsection}{\numberline {4.1.4}Actuator Electronics Noise}{60}{subsection.4.1.4}
+\contentsline {subsubsection}{Coil Driver}{60}{section*.18}
+\contentsline {subsubsection}{DAC Noise}{61}{section*.19}
+\contentsline {subsection}{\numberline {4.1.5}Angle to Length}{63}{subsection.4.1.5}
+\contentsline {section}{\numberline {4.2}Sensing Noises}{65}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Laser Amplitude Noise}{65}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Laser Frequency Noise}{66}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Oscillator Amplitude Noise}{68}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Oscillator Phase Noise}{70}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}Beam Clipping on the Optical Tables}{71}{subsection.4.2.5}
+\contentsline {subsection}{\numberline {4.2.6}Auxilliary Length Controls}{72}{subsection.4.2.6}
+\contentsline {subsection}{\numberline {4.2.7}Shot Noise}{74}{subsection.4.2.7}
+\contentsline {subsubsection}{Mode Overlap and Optical Gain}{75}{section*.20}
+\contentsline {subsection}{\numberline {4.2.8}Readout Electronics}{76}{subsection.4.2.8}
+\contentsline {section}{\numberline {4.3}Some Notes about the Noise}{77}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}The Status of the Noise}{77}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}A Brief History of the Noise}{78}{subsection.4.3.2}
+\contentsline {subsubsection}{May 18$^{th}$, 2001}{78}{section*.21}
+\contentsline {subsubsection}{December 12$^{th}$, 2001}{78}{section*.22}
+\contentsline {subsubsection}{December 21$^{th}$, 2001}{78}{section*.23}
+\contentsline {subsubsection}{May 27$^{th}$, 2002}{79}{section*.24}
+\contentsline {subsubsection}{August 24$^{th}$, 2002 (S1 Science Run)}{79}{section*.25}
+\contentsline {subsubsection}{March 6$^{th}$, 2003 (S2 Science Run)}{79}{section*.26}
+\contentsline {subsubsection}{December 24$^{th}$, 2003 (S3 Science Run)}{79}{section*.27}
+\contentsline {subsection}{\numberline {4.3.3}Evolution of Phase Sensitivity}{80}{subsection.4.3.3}
+\contentsline {chapter}{\numberline {5}The Control Systems}{87}{chapter.5}
+\contentsline {section}{\numberline {5.1}The Length Control Loops}{89}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Allowed Residual Deviations}{90}{subsection.5.1.1}
+\contentsline {subsubsection}{Differential Arm Length ($\delta L_-$)}{91}{section*.28}
+\contentsline {subsubsection}{Differential Recycling Cavity Length ($\delta l_-$)}{91}{section*.29}
+\contentsline {subsubsection}{Common Arm Length ($\delta L_+$)}{92}{section*.30}
+\contentsline {subsubsection}{Common Recycling Cavity Length ($\delta l_+$)}{92}{section*.31}
+\contentsline {subsubsection}{External Disturbances}{92}{section*.32}
+\contentsline {subsubsection}{Gain Requirements}{93}{section*.33}
+\contentsline {subsection}{\numberline {5.1.2}Noise Pollution}{94}{subsection.5.1.2}
+\contentsline {subsubsection}{Auxiliary Sensing Noises}{94}{section*.34}
+\contentsline {subsubsection}{Gravitational wave band filtering}{95}{section*.35}
+\contentsline {subsection}{\numberline {5.1.3}The real loops}{95}{subsection.5.1.3}
+\contentsline {subsubsection}{L$_-$ (a.k.a. DARM)}{96}{section*.36}
+\contentsline {subsubsection}{l$_-$ (a.k.a. MICH)}{97}{section*.37}
+\contentsline {subsubsection}{l$_+$ (a.k.a. PRC)}{97}{section*.38}
+\contentsline {subsection}{\numberline {5.1.4}The Common Mode Servo}{98}{subsection.5.1.4}
+\contentsline {subsubsection}{Parasitic Interferometers}{104}{section*.39}
+\contentsline {section}{\numberline {5.2}Angular Controls}{105}{section.5.2}
+\contentsline {section}{\numberline {5.3}Local Damping}{107}{section.5.3}
+\contentsline {section}{\numberline {5.4}Seismic Servos}{109}{section.5.4}
+\contentsline {subsubsection}{Earth Tides}{111}{section*.40}
+\contentsline {subsection}{\numberline {5.4.1}Microseismic Feed-Forward}{111}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Piezo-electric Pre-Isolator}{113}{subsection.5.4.2}
+\contentsline {chapter}{\numberline {6}Calibration}{115}{chapter.6}
+\contentsline {section}{\numberline {6.1}Interferometer Response Model}{116}{section.6.1}
+\contentsline {section}{\numberline {6.2}Actuator Calibration}{118}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Absolute Calibration}{118}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Frequency Response}{119}{subsection.6.2.2}
+\contentsline {section}{\numberline {6.3}Calibration tracking}{119}{section.6.3}
+\contentsline {section}{\numberline {6.4}Directions for the future}{119}{section.6.4}
+\contentsline {chapter}{\numberline {7}Data Analysis for Black Hole Ringdowns}{121}{chapter.7}
+\contentsline {section}{\numberline {7.1}Overview of the Method}{122}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Matched Filtering}{123}{subsection.7.1.1}
+\contentsline {subsubsection}{FFT the data}{124}{section*.41}
+\contentsline {subsubsection}{Inverse power spectrum}{124}{section*.42}
+\contentsline {subsubsection}{Apply calibrations}{125}{section*.43}
+\contentsline {subsubsection}{Choosing the event time}{125}{section*.44}
+\contentsline {subsection}{\numberline {7.1.2}Data Conditioning}{126}{subsection.7.1.2}
+\contentsline {subsubsection}{Whitening}{126}{section*.45}
+\contentsline {subsubsection}{Decimation}{127}{section*.46}
+\contentsline {subsection}{\numberline {7.1.3}Template Bank Generation}{128}{subsection.7.1.3}
+\contentsline {section}{\numberline {7.2}Coincidence Analysis}{129}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Time}{129}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Frequency}{129}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.3}Q}{129}{subsection.7.2.3}
+\contentsline {subsection}{\numberline {7.2.4}Amplitude}{130}{subsection.7.2.4}
+\contentsline {section}{\numberline {7.3}Simulations}{130}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Software Injections}{130}{subsection.7.3.1}
+\contentsline {subsubsection}{Parameter Estimation}{131}{section*.47}
+\contentsline {subsubsection}{Detection Efficiency}{131}{section*.48}
+\contentsline {subsection}{\numberline {7.3.2}Hardware Injections}{134}{subsection.7.3.2}
+\contentsline {section}{\numberline {7.4}Results}{135}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}Distribution of triggers}{135}{subsection.7.4.1}
+\contentsline {subsection}{\numberline {7.4.2}Coincident Events}{136}{subsection.7.4.2}
+\contentsline {section}{\numberline {7.5}Examination of the Remaining Coincidences}{138}{section.7.5}
+\contentsline {subsection}{\numberline {7.5.1}Study of the Remaining Events}{139}{subsection.7.5.1}
+\contentsline {subsubsection}{Event \#21 - SNR = 1580}{140}{section*.49}
+\contentsline {subsubsection}{Event \#6 - SNR = 152}{140}{section*.50}
+\contentsline {subsubsection}{Event \#20 SNR = 132}{141}{section*.51}
+\contentsline {subsubsection}{Event \#24 SNR = 71 f = 353 Hz}{141}{section*.52}
+\contentsline {subsubsection}{Event \#11 SNR = 36 f = 80 Hz}{141}{section*.53}
+\contentsline {subsubsection}{Event \#12 SNR = 30 f = 83 Hz}{141}{section*.54}
+\contentsline {subsubsection}{Event \#8 SNR = 17 f = 65 Hz}{141}{section*.55}
+\contentsline {subsubsection}{Event \#7 SNR = 16 f = 690 Hz}{141}{section*.56}
+\contentsline {subsubsection}{Event \#2 SNR = 16 f = 78 Hz}{142}{section*.57}
+\contentsline {subsubsection}{Event \#4 SNR = 15 f = 65 Hz}{142}{section*.58}
+\contentsline {subsubsection}{Event \#25 SNR = 15 f = 112 Hz}{142}{section*.59}
+\contentsline {section}{\numberline {7.6}Future Improvements}{142}{section.7.6}
+\contentsline {section}{\numberline {7.7}Conclusions}{143}{section.7.7}
+\contentsline {chapter}{\numberline {8}The Future}{145}{chapter.8}
+\contentsline {section}{\numberline {8.1}Possible Future Improvements}{146}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}Seismic Isolation}{146}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.2}Output Mode Cleaner}{146}{subsection.8.1.2}
+\contentsline {subsection}{\numberline {8.1.3}Thermal Compensation}{147}{subsection.8.1.3}
+\contentsline {subsection}{\numberline {8.1.4}Oscillator Phase Noise}{148}{subsection.8.1.4}
+\contentsline {subsection}{\numberline {8.1.5}Laser Frequency Noise}{149}{subsection.8.1.5}
+\contentsline {subsubsection}{A Better Frequency Reference}{149}{section*.60}
+\contentsline {subsubsection}{More Loop Gain}{150}{section*.61}
+\contentsline {subsection}{\numberline {8.1.6}Wavefront Sensing}{150}{subsection.8.1.6}
+\contentsline {subsection}{\numberline {8.1.7}Increased Laser Power}{150}{subsection.8.1.7}
+\contentsline {subsection}{\numberline {8.1.8}Low Noise DAC}{151}{subsection.8.1.8}
+\contentsline {subsection}{\numberline {8.1.9}Sweet Spot on the Suspension}{152}{subsection.8.1.9}
+\contentsline {subsection}{\numberline {8.1.10}Low internal mode noise}{152}{subsection.8.1.10}
+\contentsline {subsection}{\numberline {8.1.11}DC Readout}{153}{subsection.8.1.11}
+\contentsline {section}{\numberline {8.2}Estimating the future performance}{154}{section.8.2}
+\contentsline {chapter}{Conclusion}{157}{chapter*.62}
+\contentsline {chapter}{Appendices}{158}{chapter*.62}
+\contentsline {chapter}{\numberline {A}Tables of Parameters}{159}{appendix.A}
+\contentsline {chapter}{\numberline {B}Definitions and Conventions}{163}{appendix.B}
+\contentsline {chapter}{\numberline {C}Mode Cleaner}{167}{appendix.C}
+\contentsline {section}{\numberline {C.1}Noise}{170}{section.C.1}
+\contentsline {subsection}{\numberline {C.1.1}Radiation Pressure}{170}{subsection.C.1.1}
+\contentsline {subsection}{\numberline {C.1.2}VCO Phase Noise}{172}{subsection.C.1.2}
+\contentsline {subsection}{\numberline {C.1.3}Servo Electronics}{172}{subsection.C.1.3}
+\contentsline {subsection}{\numberline {C.1.4}Acoustics/Clipping/Scattering}{173}{subsection.C.1.4}
+\contentsline {chapter}{\numberline {D}Lock Acquisition}{175}{appendix.D}
+\contentsline {chapter}{\numberline {E}Cavity Formulas}{179}{appendix.E}
+\contentsline {chapter}{\numberline {F}Characterization of the Optical Parameters}{181}{appendix.F}
+\contentsline {section}{\numberline {F.1}Cavity Length Measurements}{181}{section.F.1}
+\contentsline {subsection}{\numberline {F.1.1}Arm Cavity Lengths}{181}{subsection.F.1.1}
+\contentsline {subsection}{\numberline {F.1.2}Schnupp Asymmetry}{182}{subsection.F.1.2}
+\contentsline {subsection}{\numberline {F.1.3}Recycling Cavity Length}{183}{subsection.F.1.3}
+\contentsline {subsection}{\numberline {F.1.4}Mode Cleaner Length}{183}{subsection.F.1.4}
+\contentsline {section}{\numberline {F.2}Transmissivity, Reflectivity, and Loss}{183}{section.F.2}
+\contentsline {subsection}{\numberline {F.2.1}Common arm loss via recycling gain}{184}{subsection.F.2.1}
+\contentsline {subsection}{\numberline {F.2.2}Differential arm loss via PRC to AS\_Q \& CMRR}{184}{subsection.F.2.2}
+\contentsline {subsection}{\numberline {F.2.3}T$_{\unhbox \voidb@x \hbox {\relax \fontsize {6}{7}\selectfont ITM}}$}{185}{subsection.F.2.3}
+\contentsline {subsection}{\numberline {F.2.4}T$_{\unhbox \voidb@x \hbox {\relax \fontsize {6}{7}\selectfont ETM}}$}{185}{subsection.F.2.4}
+\contentsline {subsection}{\numberline {F.2.5}R$_{\unhbox \voidb@x \hbox {\relax \fontsize {6}{7}\selectfont BS}}$ - T$_{\unhbox \voidb@x \hbox {\relax \fontsize {6}{7}\selectfont BS}}$}{185}{subsection.F.2.5}
+\contentsline {section}{\numberline {F.3}Contrast}{186}{section.F.3}
+\contentsline {section}{\numberline {F.4}Metrology}{186}{section.F.4}
+\contentsline {chapter}{\numberline {G}Interferometer Sub-Systems}{187}{appendix.G}
+\contentsline {section}{\numberline {G.1}Core Optics}{187}{section.G.1}
+\contentsline {section}{\numberline {G.2}Suspensions}{187}{section.G.2}
+\contentsline {subsection}{\numberline {G.2.1}Local Sensing and Actuation}{188}{subsection.G.2.1}
+\contentsline {section}{\numberline {G.3}Seismic Isolation}{189}{section.G.3}
+\contentsline {section}{\numberline {G.4}Pre-Stabilized Laser}{189}{section.G.4}
+\contentsline {subsection}{\numberline {G.4.1}Laser}{189}{subsection.G.4.1}
+\contentsline {subsection}{\numberline {G.4.2}Frequency Stabilization Servo (FSS)}{190}{subsection.G.4.2}
+\contentsline {subsubsection}{AOM}{191}{section*.63}
+\contentsline {subsubsection}{Reference Cavity}{191}{section*.64}
+\contentsline {subsection}{\numberline {G.4.3}Pre-Mode Cleaner (PMC)}{192}{subsection.G.4.3}
+\contentsline {subsection}{\numberline {G.4.4}Intensity Stabilization Servo (ISS)}{192}{subsection.G.4.4}
+\contentsline {section}{\numberline {G.5}Input Optics}{193}{section.G.5}
+\contentsline {chapter}{\numberline {H}The Photodetectors}{195}{appendix.H}
+\contentsline {section}{\numberline {H.1}AS\_I Servo}{197}{section.H.1}
+\contentsline {chapter}{\numberline {I}Antenna Response}{199}{appendix.I}

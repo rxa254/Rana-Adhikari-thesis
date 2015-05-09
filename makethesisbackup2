@@ -1,0 +1,28 @@
+#! /bin/sh
+
+###MYDATE=$(date +%y%m%d)
+
+echo "Deleting old tarballs"
+
+rm Thesis_di*.tar.gz
+
+echo "Tarring the directory"
+echo
+tar cvf Thesis_dir.tar *
+
+echo
+echo "Gzipping the tar file"
+echo
+gzip Thesis_dir.tar
+
+echo
+#echo "Date Stamping Tarball"
+echo
+#mv Thesis_dir.tar.gz Thesis_dir_$MYDATE.tar.gz
+
+echo
+echo "Uploading tarball"
+echo
+
+scp Thesis_di*.tar.gz lot.mit.edu:public_html/
+

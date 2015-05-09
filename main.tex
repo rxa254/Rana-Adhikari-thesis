@@ -1,0 +1,47 @@
+% -*- Mode:TeX -*-
+
+%% The documentclass options along with the pagestyle can be used to generate
+%% a technical report, a draft copy, or a regular thesis.  You may need to
+%% re-specify the pagestyle after you \include  cover.tex.  For more
+%% information, see the first few lines of mitthesis.cls. 
+
+\documentclass[12pt,vi,twoside]{mitthesis}
+
+\usepackage[pdftex]{graphicx}
+
+\usepackage{amsmath,amssymb,lgrind,wasysym}
+% Some PDFtex-specific options
+\usepackage[colorlinks=true,pdfstartview=FitV,linkcolor=blue,
+            citecolor=magenta,urlcolor=red]{hyperref}
+\pagestyle{plain}
+\bibliographystyle{unsrt}
+
+
+% This section specifies what .tex files are included
+\begin{document}
+
+\include{cover}
+\pagestyle{plain}
+\include{contents}
+\include{intro}
+\include{chap1}
+\include{chap2}
+\include{chap3}
+\include{chap4}
+\include{chap5}
+\include{chap6}
+\include{chap7}
+\include{chap8}
+\include{conclusion}
+\include{appa}
+\include{appb}
+\include{appc}
+\include{appd}
+\include{appe}
+\include{appf}
+\include{appg}
+\include{apph}
+\include{appi}
+\include{biblio}
+\end{document}
+

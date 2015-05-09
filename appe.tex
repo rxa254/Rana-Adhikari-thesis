@@ -1,0 +1,32 @@
+% ----- APPENDIX E ------------------%
+%
+%  Cavity formulas                   %
+% ---------------------------------- %
+\chapter{Cavity Formulas}
+\label{app:modes}
+
+A useful set of bassis functions for representing laser beams in cavities is in
+terms of the Hermite-Gaussian modes \cite{Mizuno:Thesis}:
+
+\begin{equation}
+\begin{split}
+\Psi_{mn}(x,y,z) =
+                &\frac{1}{z+i z_{R}} \sqrt{\frac{2 z_{R}}{2^{m+n}m!n!\lambda}}
+                H_{m}(\frac{\sqrt{2} x}{w(z)})H_{n}(\frac{\sqrt{2} y}{w(z)}) \\
+         \times &exp[-i\frac{x^2+y^2}{z+i z_{R}}\frac{k}{2}+
+                      i(m+n+1)arctan(\frac{z}{z_{R}})]
+\end{split}
+\end{equation}
+Here the $H_{l}(\eta)$ are the Hermite polynomials of order $l$. A
+characteristic scale at which the beam size has increased by $\sqrt{2}$
+is $z_{R}$, the Rayleigh range and it is defined as 
+$z_{R}=\pi w_{0}^{2}/\lambda$. The equation describing the expansion of
+the beam is
+
+\begin{equation}
+w(z) = w_{0} \sqrt{1 + (z/z_{R})^{2}}
+\end{equation}
+where $w_{0}$ is the minimum in the beam size, similar to the focus in
+geometric optics. $w(z)$ is defined as the 1/e point in field for a pure
+Gaussian beam, i.e. the lowest order, TEM$_{00}$, Hermite Gaussian mode.
+

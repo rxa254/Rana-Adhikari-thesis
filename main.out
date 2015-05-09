@@ -1,0 +1,133 @@
+\BOOKMARK [0][-]{chapter*.6}{Introduction}{}
+\BOOKMARK [0][-]{chapter.1}{Gravitational Radiation}{}
+\BOOKMARK [1][-]{section.1.1}{Gravitational Radiation in General Relativity}{chapter.1}
+\BOOKMARK [2][-]{subsection.1.1.1}{Measurable Effect on Free Masses}{section.1.1}
+\BOOKMARK [2][-]{subsection.1.1.2}{Radiation Amplitudes}{section.1.1}
+\BOOKMARK [1][-]{section.1.2}{Astrophysical Sources}{chapter.1}
+\BOOKMARK [2][-]{subsection.1.2.1}{Monochromatic Signals}{section.1.2}
+\BOOKMARK [2][-]{subsection.1.2.2}{Stochastic Background}{section.1.2}
+\BOOKMARK [2][-]{subsection.1.2.3}{Bursts}{section.1.2}
+\BOOKMARK [2][-]{subsection.1.2.4}{Binary Inspiral}{section.1.2}
+\BOOKMARK [2][-]{subsection.1.2.5}{Ringdowns}{section.1.2}
+\BOOKMARK [0][-]{chapter.2}{Gravitational Wave Antennae}{}
+\BOOKMARK [1][-]{section.2.1}{Resonant Mass Detectors \(Bars\)}{chapter.2}
+\BOOKMARK [1][-]{section.2.2}{Laser Interferometers}{chapter.2}
+\BOOKMARK [2][-]{subsection.2.2.1}{The Michelson Interferometer}{section.2.2}
+\BOOKMARK [2][-]{subsection.2.2.2}{Fabry-Perot Resonators}{section.2.2}
+\BOOKMARK [2][-]{subsection.2.2.3}{Power Recycling}{section.2.2}
+\BOOKMARK [0][-]{chapter.3}{Signal Extraction}{}
+\BOOKMARK [1][-]{section.3.1}{Signal Readout Scheme}{chapter.3}
+\BOOKMARK [1][-]{section.3.2}{Elements of the Sensing Matrix}{chapter.3}
+\BOOKMARK [1][-]{section.3.3}{Dark Port Signal Generation}{chapter.3}
+\BOOKMARK [0][-]{chapter.4}{The Noises}{}
+\BOOKMARK [1][-]{section.4.1}{Displacement Noises}{chapter.4}
+\BOOKMARK [2][-]{subsection.4.1.1}{Seismic Noise}{section.4.1}
+\BOOKMARK [2][-]{subsection.4.1.2}{Thermal Noise}{section.4.1}
+\BOOKMARK [2][-]{subsection.4.1.3}{Radiation Pressure}{section.4.1}
+\BOOKMARK [2][-]{subsection.4.1.4}{Actuator Electronics Noise}{section.4.1}
+\BOOKMARK [2][-]{subsection.4.1.5}{Angle to Length}{section.4.1}
+\BOOKMARK [1][-]{section.4.2}{Sensing Noises}{chapter.4}
+\BOOKMARK [2][-]{subsection.4.2.1}{Laser Amplitude Noise}{section.4.2}
+\BOOKMARK [2][-]{subsection.4.2.2}{Laser Frequency Noise}{section.4.2}
+\BOOKMARK [2][-]{subsection.4.2.3}{Oscillator Amplitude Noise}{section.4.2}
+\BOOKMARK [2][-]{subsection.4.2.4}{Oscillator Phase Noise}{section.4.2}
+\BOOKMARK [2][-]{subsection.4.2.5}{Beam Clipping on the Optical Tables}{section.4.2}
+\BOOKMARK [2][-]{subsection.4.2.6}{Auxilliary Length Controls}{section.4.2}
+\BOOKMARK [2][-]{subsection.4.2.7}{Shot Noise}{section.4.2}
+\BOOKMARK [2][-]{subsection.4.2.8}{Readout Electronics}{section.4.2}
+\BOOKMARK [1][-]{section.4.3}{Some Notes about the Noise}{chapter.4}
+\BOOKMARK [2][-]{subsection.4.3.1}{The Status of the Noise}{section.4.3}
+\BOOKMARK [2][-]{subsection.4.3.2}{A Brief History of the Noise}{section.4.3}
+\BOOKMARK [2][-]{subsection.4.3.3}{Evolution of Phase Sensitivity}{section.4.3}
+\BOOKMARK [0][-]{chapter.5}{The Control Systems}{}
+\BOOKMARK [1][-]{section.5.1}{The Length Control Loops}{chapter.5}
+\BOOKMARK [2][-]{subsection.5.1.1}{Allowed Residual Deviations}{section.5.1}
+\BOOKMARK [2][-]{subsection.5.1.2}{Noise Pollution}{section.5.1}
+\BOOKMARK [2][-]{subsection.5.1.3}{The real loops}{section.5.1}
+\BOOKMARK [2][-]{subsection.5.1.4}{The Common Mode Servo}{section.5.1}
+\BOOKMARK [1][-]{section.5.2}{Angular Controls}{chapter.5}
+\BOOKMARK [1][-]{section.5.3}{Local Damping}{chapter.5}
+\BOOKMARK [1][-]{section.5.4}{Seismic Servos}{chapter.5}
+\BOOKMARK [2][-]{subsection.5.4.1}{Microseismic Feed-Forward}{section.5.4}
+\BOOKMARK [2][-]{subsection.5.4.2}{Piezo-electric Pre-Isolator}{section.5.4}
+\BOOKMARK [0][-]{chapter.6}{Calibration}{}
+\BOOKMARK [1][-]{section.6.1}{Interferometer Response Model}{chapter.6}
+\BOOKMARK [1][-]{section.6.2}{Actuator Calibration}{chapter.6}
+\BOOKMARK [2][-]{subsection.6.2.1}{Absolute Calibration}{section.6.2}
+\BOOKMARK [2][-]{subsection.6.2.2}{Frequency Response}{section.6.2}
+\BOOKMARK [1][-]{section.6.3}{Calibration tracking}{chapter.6}
+\BOOKMARK [1][-]{section.6.4}{Directions for the future}{chapter.6}
+\BOOKMARK [0][-]{chapter.7}{Data Analysis for Black Hole Ringdowns}{}
+\BOOKMARK [1][-]{section.7.1}{Overview of the Method}{chapter.7}
+\BOOKMARK [2][-]{subsection.7.1.1}{Matched Filtering}{section.7.1}
+\BOOKMARK [2][-]{subsection.7.1.2}{Data Conditioning}{section.7.1}
+\BOOKMARK [2][-]{subsection.7.1.3}{Template Bank Generation}{section.7.1}
+\BOOKMARK [1][-]{section.7.2}{Coincidence Analysis}{chapter.7}
+\BOOKMARK [2][-]{subsection.7.2.1}{Time}{section.7.2}
+\BOOKMARK [2][-]{subsection.7.2.2}{Frequency}{section.7.2}
+\BOOKMARK [2][-]{subsection.7.2.3}{Q}{section.7.2}
+\BOOKMARK [2][-]{subsection.7.2.4}{Amplitude}{section.7.2}
+\BOOKMARK [1][-]{section.7.3}{Simulations}{chapter.7}
+\BOOKMARK [2][-]{subsection.7.3.1}{Software Injections}{section.7.3}
+\BOOKMARK [2][-]{subsection.7.3.2}{Hardware Injections}{section.7.3}
+\BOOKMARK [1][-]{section.7.4}{Results}{chapter.7}
+\BOOKMARK [2][-]{subsection.7.4.1}{Distribution of triggers}{section.7.4}
+\BOOKMARK [2][-]{subsection.7.4.2}{Coincident Events}{section.7.4}
+\BOOKMARK [1][-]{section.7.5}{Examination of the Remaining Coincidences}{chapter.7}
+\BOOKMARK [2][-]{subsection.7.5.1}{Study of the Remaining Events}{section.7.5}
+\BOOKMARK [1][-]{section.7.6}{Future Improvements}{chapter.7}
+\BOOKMARK [1][-]{section.7.7}{Conclusions}{chapter.7}
+\BOOKMARK [0][-]{chapter.8}{The Future}{}
+\BOOKMARK [1][-]{section.8.1}{Possible Future Improvements}{chapter.8}
+\BOOKMARK [2][-]{subsection.8.1.1}{Seismic Isolation}{section.8.1}
+\BOOKMARK [2][-]{subsection.8.1.2}{Output Mode Cleaner}{section.8.1}
+\BOOKMARK [2][-]{subsection.8.1.3}{Thermal Compensation}{section.8.1}
+\BOOKMARK [2][-]{subsection.8.1.4}{Oscillator Phase Noise}{section.8.1}
+\BOOKMARK [2][-]{subsection.8.1.5}{Laser Frequency Noise}{section.8.1}
+\BOOKMARK [2][-]{subsection.8.1.6}{Wavefront Sensing}{section.8.1}
+\BOOKMARK [2][-]{subsection.8.1.7}{Increased Laser Power}{section.8.1}
+\BOOKMARK [2][-]{subsection.8.1.8}{Low Noise DAC}{section.8.1}
+\BOOKMARK [2][-]{subsection.8.1.9}{Sweet Spot on the Suspension}{section.8.1}
+\BOOKMARK [2][-]{subsection.8.1.10}{Low internal mode noise}{section.8.1}
+\BOOKMARK [2][-]{subsection.8.1.11}{DC Readout}{section.8.1}
+\BOOKMARK [1][-]{section.8.2}{Estimating the future performance}{chapter.8}
+\BOOKMARK [0][-]{chapter*.62}{Conclusion}{}
+\BOOKMARK [0][-]{chapter*.62}{Appendices}{}
+\BOOKMARK [0][-]{appendix.A}{Tables of Parameters}{}
+\BOOKMARK [0][-]{appendix.B}{Definitions and Conventions}{}
+\BOOKMARK [0][-]{appendix.C}{Mode Cleaner}{}
+\BOOKMARK [1][-]{section.C.1}{Noise}{appendix.C}
+\BOOKMARK [2][-]{subsection.C.1.1}{Radiation Pressure}{section.C.1}
+\BOOKMARK [2][-]{subsection.C.1.2}{VCO Phase Noise}{section.C.1}
+\BOOKMARK [2][-]{subsection.C.1.3}{Servo Electronics}{section.C.1}
+\BOOKMARK [2][-]{subsection.C.1.4}{Acoustics/Clipping/Scattering}{section.C.1}
+\BOOKMARK [0][-]{appendix.D}{Lock Acquisition}{}
+\BOOKMARK [0][-]{appendix.E}{Cavity Formulas}{}
+\BOOKMARK [0][-]{appendix.F}{Characterization of the Optical Parameters}{}
+\BOOKMARK [1][-]{section.F.1}{Cavity Length Measurements}{appendix.F}
+\BOOKMARK [2][-]{subsection.F.1.1}{Arm Cavity Lengths}{section.F.1}
+\BOOKMARK [2][-]{subsection.F.1.2}{Schnupp Asymmetry}{section.F.1}
+\BOOKMARK [2][-]{subsection.F.1.3}{Recycling Cavity Length}{section.F.1}
+\BOOKMARK [2][-]{subsection.F.1.4}{Mode Cleaner Length}{section.F.1}
+\BOOKMARK [1][-]{section.F.2}{Transmissivity, Reflectivity, and Loss}{appendix.F}
+\BOOKMARK [2][-]{subsection.F.2.1}{Common arm loss via recycling gain}{section.F.2}
+\BOOKMARK [2][-]{subsection.F.2.2}{Differential arm loss via PRC to AS\137Q \046 CMRR}{section.F.2}
+\BOOKMARK [2][-]{subsection.F.2.3}{TITM}{section.F.2}
+\BOOKMARK [2][-]{subsection.F.2.4}{TETM}{section.F.2}
+\BOOKMARK [2][-]{subsection.F.2.5}{RBS - TBS}{section.F.2}
+\BOOKMARK [1][-]{section.F.3}{Contrast}{appendix.F}
+\BOOKMARK [1][-]{section.F.4}{Metrology}{appendix.F}
+\BOOKMARK [0][-]{appendix.G}{Interferometer Sub-Systems}{}
+\BOOKMARK [1][-]{section.G.1}{Core Optics}{appendix.G}
+\BOOKMARK [1][-]{section.G.2}{Suspensions}{appendix.G}
+\BOOKMARK [2][-]{subsection.G.2.1}{Local Sensing and Actuation}{section.G.2}
+\BOOKMARK [1][-]{section.G.3}{Seismic Isolation}{appendix.G}
+\BOOKMARK [1][-]{section.G.4}{Pre-Stabilized Laser}{appendix.G}
+\BOOKMARK [2][-]{subsection.G.4.1}{Laser}{section.G.4}
+\BOOKMARK [2][-]{subsection.G.4.2}{Frequency Stabilization Servo \(FSS\)}{section.G.4}
+\BOOKMARK [2][-]{subsection.G.4.3}{Pre-Mode Cleaner \(PMC\)}{section.G.4}
+\BOOKMARK [2][-]{subsection.G.4.4}{Intensity Stabilization Servo \(ISS\)}{section.G.4}
+\BOOKMARK [1][-]{section.G.5}{Input Optics}{appendix.G}
+\BOOKMARK [0][-]{appendix.H}{The Photodetectors}{}
+\BOOKMARK [1][-]{section.H.1}{AS\137I Servo}{appendix.H}
+\BOOKMARK [0][-]{appendix.I}{Antenna Response}{}

@@ -1,0 +1,78 @@
+This is BibTeX, Version 0.99c (Web2C 7.5.4)
+The top-level auxiliary file: main.aux
+The style file: unsrt.bst
+A level-1 auxiliary file: cover.aux
+A level-1 auxiliary file: contents.aux
+A level-1 auxiliary file: intro.aux
+A level-1 auxiliary file: chap1.aux
+A level-1 auxiliary file: chap2.aux
+A level-1 auxiliary file: chap3.aux
+A level-1 auxiliary file: chap4.aux
+A level-1 auxiliary file: chap5.aux
+A level-1 auxiliary file: chap6.aux
+A level-1 auxiliary file: chap7.aux
+A level-1 auxiliary file: chap8.aux
+A level-1 auxiliary file: conclusion.aux
+A level-1 auxiliary file: appa.aux
+A level-1 auxiliary file: appb.aux
+A level-1 auxiliary file: appc.aux
+A level-1 auxiliary file: appd.aux
+A level-1 auxiliary file: appe.aux
+A level-1 auxiliary file: appf.aux
+A level-1 auxiliary file: appg.aux
+A level-1 auxiliary file: apph.aux
+A level-1 auxiliary file: appi.aux
+A level-1 auxiliary file: biblio.aux
+Illegal, another \bibstyle command---line 128 of file biblio.aux
+ : \bibstyle
+ :          {plain}
+I'm skipping whatever remains of this command
+Database file #1: main.bib
+Warning--string name "august" is undefined
+--line 1595 of file main.bib
+Warning--I didn't find a database entry for "sec:SUS"
+Warning--I didn't find a database entry for "Bruce:MF"
+Warning--can't use both author and editor fields in Kip:300
+Warning--empty title in Pirani:GR
+You've used 125 entries,
+            1791 wiz_defined-function locations,
+            1243 strings with 24022 characters,
+and the built_in function-call counts, 27494 in all, are:
+= -- 2357
+> -- 1301
+< -- 10
++ -- 492
+- -- 367
+* -- 1888
+:= -- 4581
+add.period$ -- 394
+call.type$ -- 125
+change.case$ -- 108
+chr.to.int$ -- 0
+cite$ -- 127
+duplicate$ -- 1129
+empty$ -- 2654
+format.name$ -- 367
+if$ -- 6083
+int.to.chr$ -- 0
+int.to.str$ -- 125
+missing$ -- 107
+newline$ -- 647
+num.names$ -- 135
+pop$ -- 253
+preamble$ -- 2
+purify$ -- 0
+quote$ -- 0
+skip$ -- 456
+stack$ -- 0
+substring$ -- 1846
+swap$ -- 187
+text.length$ -- 10
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 217
+width$ -- 128
+write$ -- 1396
+(There was 1 error message)

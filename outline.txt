@@ -1,0 +1,282 @@
+
+* * * OUTLINE * * *
+
+
+I. Gravity Waves
+   A. Gravitational wave generation theory
+   B. Sources
+      1. Continuous wave sources
+      2. Stochastic Background
+      3. Bursts
+      4. Inspirals
+      5. Ringdowns
+
+
+
+II. Gravity Wave Antennae
+   A. Bars
+   B. Doppler Timing
+   C. Laser Interferometers
+      1. LIGO
+      2. LISA
+   D. Description of LIGO
+
+
+
+III. Signal Extraction
+     - want to read out 4 length DOFs
+     - have 6 signals (3 ports, 2 quadratures)
+    A. Basic Results (ala Frequency Response)
+       1. Refer to appendix on PDH locking
+       2. Give my interpretation of the Frequency Response doc
+       3. Variables defined in an apendix
+
+    B. Dirt effects
+       1. Reflectivity Imbalances
+          a. dT_ITM => Finesse Imbalance
+          b. R_BS-T_BS != 0  => weird stuff
+          c. Arm Loss imbalance => AS port static carrier
+       2. Length offsets
+          a. PRC length
+          b. Schnupp trans match w/ T_RM
+          c. Arm length imbalance
+       3. Mode overlap
+          a. Formula for signal generation
+       4. Free spectral range effects
+          a. Above 1kHz, there are some TF's that show
+             the 1/2 fsr feature
+          b. Effect on the CM servo maybe
+       5. J2 resonances
+          a. Can the J2's resonate if they're close? How close
+             are they?
+
+
+
+  
+IV. Noise
+   A. Seismic
+      1. Linear Coupling (GND -> Pier -> Stack -> Pend)
+         a. Ground Noise Spectra
+         b. Crossbeam - Support Tube Noise
+         c. Stack Model (is this any good?)
+         d. Pendulum
+	 
+   B. Thermal - General Intro
+      1. Test mass face motion
+         a. Levin's Supposition
+         b. Kenji's data
+         c. Gregg's Method
+      2. Suspension wire vibration
+         a. Gaby's steel beam method
+         b. Data from high res spectra
+   
+   C. Radiation Pressure
+      1. Technical Intensity Noise -> Arm Imbalance
+         negligible: filtered by double cavity pole
+      2. Quantum radiation pressure
+   
+   D. Actuation Electronics (diagram)
+      1. Coil Driver
+         - plot of coil current spectra
+	   w/ current noise requirement
+      2. DAC
+         - flat voltage noise level
+	 - dewhitening - switching
+   
+   E. Auxillary DOFs
+      1. Angles (explain coupling (decentering + coil imbalance))
+         a. Optical Levers
+         b. WFS
+      2. Vertical (wedges + ROC of Earth)
+      3. Side (?)
+   
+   F. Shot Noise
+   
+   G. Intensity Noise
+      1. RIN * dLm = S
+         Amplitude fluctuations of the RF SB are not
+	 filtered by the double cavity pole. They cause
+	 a gain modulation at the AS port.
+      2. Makes frequency noise through rad pressure.
+   
+   H. Laser Frequency Noise (where does it come from?)
+      1. Michelson Asymmetry
+      2. Arm Cavity Storage Time Mismatch
+      3. Reflectivity Imbalance
+      
+   I. Scattering
+      0. Residual Gas - Blue Binder
+      1. Light bouncing around the beamtube
+      2. PD BRDF <-> BS makes a parasite
+      3. Output table clipping
+   
+   J. MICH & PRC
+      1. MICH makes audio SBs on the carrier.
+      2. PRC makes audio SBs on the RF SB. This beats
+         with the static TEM00 carrier from arm cavity
+	 reflectivity imbalance.
+   
+   K. Readout Electronics (Draw a diagram)
+      1. PD Circuit
+      2. ADC Noise
+
+ 
+V. The Control Systems
+
+  A. Requirements
+      1. Allowed Residual Deviations
+         a. Lm - 1e-13 - Intensity Noise
+         b. lm - 1e-9  - ?? Intensity Noise
+         c. Lp - 1.5e-12 - ?? Arm power
+         d. lp - 1.1e-10 - ?? Arm power
+      2. External disturbance model / measurements
+      3. The resultant gain requirements
+
+  B. The LSC Loops
+     1. DARM
+     2. MICH
+     3. PRC
+     4. Common Mode Servo Scheme
+        a. Raw Laser Frequency Noise v. Req
+        b. Cascaded scheme of multiple loops
+        c. Diagram
+        d. Bode plots of FSS, MC, CM
+
+  C. Angle Controls
+
+  D. Local Damping
+
+  E. Seismic Servos
+     1. Tidal
+     2. MSFF
+     3. PEPI
+
+
+VI. IFO-ID results     
+       1. What to compare?
+          a. freqIFO v. Frequency Response
+          b. Data v. Frequency Response
+          c. Data v. freqIFO
+       2. Data
+          a. Sweeps of the DOFs
+          b. Cross-terms
+             - CM -> AS_Q
+             - MICH -> AS_Q
+             - PRC -> AS_Q
+          c. fits to the models
+       3. Results
+          a. Info about the shape of the TF
+          b. Optical gain
+          c. Cross terms measure imperfections
+
+
+
+VII. Ringdowns
+
+
+VIII. Conclusion
+
+
+
+
+
+
+
+Appendices:
+-----------
+A. Constants, Symbols, etc.
+
+
+B. Stuff on GW generation
+
+
+C. PDH locking
+
+   1. Basic picture
+
+   2. What happens at high frequency
+
+   3. mode matching
+
+
+D. Definition of Frequency Response Symbols
+
+
+E. Hermite-Gaussian Modes
+
+
+F. Optics Characterization
+
+   1. T_ITM via cavity ringdown
+
+   2. Differential arm loss via PRC->AS_Q & CMRR
+
+   3. Common arm loss via recycling gain
+
+   4. Carrier contrast via SPOB & AS_DC
+
+   5. T_ETM via direct PTRX measurement
+
+   6. R_BS - T_BS via Garilynn (?)
+
+   7. Absorption upper limit via SPOB cooldown
+
+   8. Arm length via frequency sweep
+
+   9. Schnupp Asymmetry by arm phases
+
+  10. RC length via Andri's AM modulation
+
+  11. Mode matching via arm cavity scan
+
+  12. Tie it in to the metrology
+
+
+G. Description of the sub-systems
+ 
+  1. Core Optics
+     a. Fused Silica / some coating
+     b. Diameter
+     c. Mass
+     d. Q's
+     e. Metrology
+
+  2. Suspensions
+     a. One loop because of Caltech
+     b. Wire parameters
+     c. Thermal noise, clamps, etc.
+
+  3. Seismic Isolation
+     a. Ground Noise Spectrum
+     b. Strain Spectrum
+     c. requirements
+     d. problems with high Qs
+     e. Excess noise on the pier tops
+     f. HAMs (why they suck so bad)
+
+  4. Patheticaly-Stabilized Laser
+     a. NPRO
+     b. MOPA
+     c. PMC
+     d. FSS
+
+  5. Input Optics
+     a. Mode Matching Telescope
+        - Make the beam big
+        - Not jitter too much
+     b. Mode Cleaner 
+        - Cleans modes
+        - Must be quiet
+        - Must pass sidebands
+     c. Small optics description
+
+  6. Vaccuum System
+     a. Steel Tubes
+     b. Chambers with viewports
+     c. Pumps (rough, turbo, cryo)
+     d. valves
+
+
+H. The Photodetectors
+
+I. MICH & PRC Noise Budgets

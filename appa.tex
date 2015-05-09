@@ -1,0 +1,228 @@
+% Header for all appendices. Need just once.
+\appendix
+\addcontentsline{toc}{chapter}{Appendices}
+
+%-------Appendix A-------------------------------------------------------------
+%-------Tables of Parameters---------------------------------------------------
+\chapter{Tables of Parameters}
+\label{app:Parameters}
+
+%-------Fundamental Constants ---------------------------------------------------
+\begin{table}[!h]
+\begin{center}
+\begin{tabular}{|l|c|c|c|}
+\hline
+\multicolumn{4}{|l|}
+{{\bf Physical Constants}}\\ \hline \hline
+Parameter                 & Symbol      & Value                    & Units   \\ \hline \hline
+
+Speed of Light               & $c$         & 299792458                & m/s         \\ \hline
+
+Planck's Constant            & $h$         & $6.6261 \times 10^{-34}$ & J s         \\ \hline
+
+Boltzmann's Constant       & $k_B$       & $1.380 \times 10^{-23}$  & J/K           \\ \hline
+
+Electron Charge              & $e_c$       & $1.602 \times 10^{-19}$  & C           \\ \hline 
+
+Gravitational Constant    & $G$         & $6.674 \times 10^{-11}$  & m$^3$/kg/s$^2$ \\ \hline
+
+Fine Structure Constant      & $\alpha$    & 1/137.036                & -            \\ \hline
+
+Stefan-Boltzmann Constant   & $\sigma_B$  & $5.67 \times 10^{-8}$    & W/m$^2$/K$^4$ \\ \hline
+
+Avogadro Constant           & $N_A$       & $6.022 \times 10^{23}$   & mol$^{-1}$    \\ \hline
+
+\end{tabular}
+\end{center}
+\caption[Fundamental Constants]{Values of constants from the NIST 
+                                CODATA webpage \cite{CODATA}}
+\label{t:Fundamental}
+\end{table}
+
+
+
+\begin{table}[!h]
+\begin{center}
+\begin{tabular}{|l|c|r|c|}
+\hline
+\multicolumn{4}{|l|}
+{{\bf Large Optic Parameters}}\\ \hline \hline
+Parameter                         & Symbol     & Value             & Units   \\ \hline \hline
+
+Specific Heat		             & $c_H$        & 740               & J/kg        \\ \hline
+
+Refractive Index (@ 1064 nm)         & $n$        & 1.45              & -           \\ \hline
+
+Thermal Conductivity 	             & $k$	  & 1.38    & W m$^{-1}$ K$^{-1}$   \\ \hline
+
+Young's Modulus	(substrate)	     & $Y_S$      & 72.80	      & GPa         \\ \hline
+
+Young's Modulus	(coating)	     & $Y_C$      & 100	              & GPa         \\ \hline
+
+Poisson Ratio		             & $\sigma$   & 0.170	      & -           \\ \hline
+
+Thickness (coating)           & d$_C$      & 8 $\times$ 10$^{-6}$     & m           \\ \hline
+
+Loss Angle (substrate)            & $\phi_S$  & 1 $\times$ 10$^{-7}$  & -           \\ \hline
+
+Loss Angle (coating)                 & $\phi_C$   & 2 $\times$ 10$^{-4}$ & -        \\ \hline
+
+Density		                     & $\rho$     & 2196              & kg/m$^3$    \\ \hline
+
+Optic Radius             & $R_{\mbox{\tiny LOS}}$     & 0.125         & m           \\ \hline
+
+Optic Diameter                       & dia        & 0.250             & m           \\ \hline
+
+Optic Thickness             & $h_{\mbox{\tiny LOS}}$   & 0.100        & m           \\ \hline
+
+Optic Thickness (BS)        & $h_{\mbox{\tiny BS}}$    & 0.040        & m           \\ \hline
+
+Optic Mass              & $m_{\mbox{\tiny LOS}}$  & 10.5              & kg          \\ \hline
+
+Optic Mass  (BS)          & $m_{\mbox{\tiny BS}}$  &  4.2             & kg          \\ \hline
+
+\end{tabular}
+\end{center}
+\caption[Large Optic's Parameters]{Parameters for the optics are only approximate. 
+                            There is an
+                             optic to optic variation in dimensions due to the varying
+                             wedge angles. Thickness is measured at the \emph{thickest}
+                             point for all optics except the BS where it is measured at
+                             the \emph{thinnest} point.}
+\label{t:LOS}
+\end{table}
+
+\clearpage
+
+\begin{table}[!h]
+\begin{center}
+\begin{tabular}{|l|l|}
+\hline
+\multicolumn{2}{|l|}
+{{\bf Description of Variables }}\\ \hline \hline
+Variable Symbol    & Description                                               \\ \hline \hline
+					      			       		
+$P_{in}$         & Power into the interferomter                                       \\ \hline
+					      			       		
+$g_{cr}$         & Carrier amplitude recycling gain                                   \\ \hline
+					      			       		
+$g_{sb}$         & Sideband amplitude recycling gain                                  \\ \hline
+
+$t_{sb}$         & Sideband transmission to the AS port from the IFO input            \\ \hline
+
+$r_{cr}$         & Interferometer carrier reflectivity                                \\ \hline
+					      			       		
+$r_c$            & Arm cavity carrier reflectivity 		                      \\ \hline
+					      			       
+$r_{c}'$         & Derivative of $r_c$ w.r.t. cavity length                           \\ \hline
+					      			       		
+$t_M$            & Michelson transmission for the sidebands	        	      \\ \hline
+
+$\omega_m$       & Resonant sideband angular frequency                                \\ \hline
+
+$\omega_{nr}$    & Non-resonant sideband angular frequency                            \\ \hline
+
+$\aleph$         & Optical gain pre-factor                                            \\ \hline
+
+$\Gamma$         & Modulation depth in radians                                        \\ \hline
+
+
+
+
+\end{tabular}							      
+\end{center}
+\caption[Variable Definitions]{}
+\label{t:Variables}
+\end{table}
+
+
+
+\begin{table}[!h]
+\begin{center}
+\begin{tabular}{|l|l|}
+\hline
+\multicolumn{2}{|l|}
+{{\bf DEFINITIONS of ACRONYMS }}\\ \hline \hline
+ACRONYM            & DEFINITION                                        \\ \hline \hline
+					      			       		
+RM                 & Recycling Mirror                                  \\ \hline
+					      			       		
+BS                 & Beam Splitter            			       \\ \hline
+					      			       		
+ITMX               & Input Test Mass, X-Arm                            \\ \hline
+					      			       		
+ITMY               & Input Test Mass, Y-Arm   			       \\ \hline
+					      			       
+ETMX               & End Test Mass, X-Arm                              \\ \hline
+					      			       		
+ETMY               & End Test Mass, Y-Arm     			       \\ \hline
+
+LSC                & Length Sensing \& Control			       \\ \hline
+
+ISC                & Interferometer Sensing \& Control                 \\ \hline
+
+PD                 & Photo-Detector                                    \\ \hline
+
+RFPD               & Radio Frequency Photo-Detector                    \\ \hline
+
+ASC                & Alignment Sensing \& Control		       \\ \hline
+					      			       		
+WFS                & Wavefront Sensor         			       \\ \hline
+
+QPD                & Quadrant Photo-Detector                           \\ \hline
+								       		
+SEI                & Seismic Isolation                                 \\ \hline
+
+TCS                & Thermal Compensation System   		       \\ \hline
+					      			       
+IOO                & Input Output Optics                               \\ \hline
+					      			       		
+PSL                & Pre-Stabilized Laser     			       \\ \hline
+
+FSS                & Frequency Stabilization Servo   		       \\ \hline
+					      			       
+PMC                & Pre-Mode Cleaner                                  \\ \hline
+					      			       		
+ISS                & Intensity Stabilization Servo     		       \\ \hline
+
+PC                 & Pockels Cell                                      \\ \hline
+
+MC                 & Mode Cleaner				        \\ \hline
+								       		
+OMC                & Output Mode Cleaner				\\ \hline
+
+BSC                & Barbecue Sauce Container				\\ \hline
+					      			       
+HAM                & Horizontal Access Module                           \\ \hline
+					      			       		
+RGA                & Residual Gas Analyzer     			       \\ \hline
+
+PZT                & Lead Zirconate Tantanate   		       \\ \hline
+					      			       
+FAS                & Fine Actuation System                              \\ \hline
+					      			       		
+PEPI               & Piezo-Electric Pre-Isolator     		       \\ \hline
+
+HEPI               & Hydraulic External Pre-Isolator 		       \\ \hline
+
+COC                & Core Optics Components			       \\ \hline
+					      			       
+MMT                & Mode Matching Telescope			       \\ \hline
+
+LVEA               & Large Vacuum Equipment Area   		       \\ \hline
+					      			       
+SUS                & Suspension                                         \\ \hline
+
+LOS                & Large Optic Suspension                             \\ \hline
+
+SOS                & Small Optic Suspension                             \\ \hline
+
+IIR                & Infinite Impulse Response                          \\ \hline
+
+FIR                & Finite Impulse Response                            \\ \hline
+								       		
+\end{tabular}							      
+\end{center}
+\caption[Acronym Definitions]{}
+\label{t:Acronyms}
+\end{table}
